@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LoginData>
+    <login name="登录测试数据">
+        <storeid>10054</storeid>
+        <username>yewen</username>
+        <password>ccwk0715</password>
+        <loginbtn>//*[@id='form1']/li[5]</loginbtn>
+        <logouturl>http://s2.checheweike.com/erp/index.php?route=common/logout</logouturl>
+        <checkusername>//*[@id='header-nav-user']/div/a/span</checkusername>
+    </login>
+</LoginData>
