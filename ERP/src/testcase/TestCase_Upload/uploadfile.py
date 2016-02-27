@@ -24,9 +24,13 @@ class TestCaseFile(unittest.TestCase):
         time.sleep(1)
         WebDriverHelp().switoiframe("xubox_iframe")
         time.sleep(1)
-        WebDriverHelp().inputvalue("byname", "name", "jkslkk")
-        time.sleep(13)
+        WebDriverHelp().inputvalue("byname", "price", "344")
+        time.sleep(1)
+        WebDriverHelp().clickitem("byxpath", "//*[@id='dialog-container']/div/form/div[2]/div/a[1]")
+        time.sleep(1)
+        WebDriverHelp().clickitem("byxpath", "//*[@id='xubox_layer1']/div/span/a")
+        # time.sleep(1)
 
-    # def tearDown(self):
-    #     WebDriverHelp().teardown() #关闭浏览器
+    def tearDown(self):
+        WebDriverHelp().teardown() #关闭浏览器
 
