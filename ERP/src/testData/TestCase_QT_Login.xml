@@ -16,6 +16,7 @@
         <qunfa>//*[@id='menu-weixin']/ul/li[3]</qunfa>
         <sucaiguanli>//*[@id='menu-weixin']/ul/li[3]/ul/li[2]</sucaiguanli>
         <add>//*[@id='content']/div/div[1]/div/a</add>
+        <addurl>http://s2.checheweike.com/store/index.php?route=weixin/material/insert</addurl>
         <uploadbtn>ueditor_0</uploadbtn>
     </weixin>
     <mendian>
