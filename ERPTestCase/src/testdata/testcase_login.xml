@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<LoginData>
+<Data>
     <login name="登录测试数据">
-        <storeid>10054</storeid>
-        <username>yewen</username>
-        <password>ccwk0715</password>
-        <loginbtn>//*[@id='form1']/li[5]</loginbtn>
-        <logouturl>http://s2.checheweike.com/erp/index.php?route=common/logout</logouturl>
+        <storeid>10054</storeid> <!-- 商户号 -->
+        <username>yewen</username><!-- 用户名 -->
+        <password>ccwk0715</password><!--密码-->
+        <loginbtn>//*[@id='form1']/li[5]</loginbtn><!-- 密码 -->
+        <logouturl>http://s2.checheweike.com/erp/index.php?route=common/logout</logouturl><!-- 登出url -->
         <checkusername>//*[@id='header-nav-user']/div/a/span</checkusername>
     </login>
-</LoginData>
+    <menu name="菜单定位">
+        <crm>//*[@id="navi-tabs"]/a[1]</crm> <!-- xpath -->
+    </menu>
+    <crmmenu name="CRM菜单定位">
+        <weixin>//*[@id="menu-weixin"]/a</weixin>
+        <wxmessage>//*[@id="menu-weixin"]/ul/li[1]/a</wxmessage>
+        <wxfan>//*[@id="menu-weixin"]/ul/li[2]/a</wxfan>
+        <qunfa>//*[@id="menu-weixin"]/ul/li[3]/a</qunfa>
+        <groupsend>//*[@id="menu-weixin"]/ul/li[3]/a</groupsend>
+        <material>//*[@id="menu-weixin"]/ul/li[3]/ul/li[2]/a</material>
+    </crmmenu>
+    <erpmenu name="ERP菜单定位"></erpmenu>
+    <wx name="微信互动元素定位">
+        <add>//*[@id="content"]/div/div[1]/div/a</add><!-- 添加素材 -->
+        <addurl>http://s2.checheweike.com/store/index.php?route=weixin/material/insert</addurl>
+    </wx>
+
+    <url name="链接">
+        <crm>http://s2.checheweike.com/store/index.php?route=common/home</crm>
+        <erp>http://s2.checheweike.com/erp/index.php?route=common/home</erp>
+        <wxmessage>http://s2.checheweike.com/store/index.php?route=weixin/message</wxmessage>
+        <wxfan>http://s2.checheweike.com/store/index.php?route=weixin/message</wxfan>
+        <groupsend>http://s2.checheweike.com/store/index.php?route=weixin/group_send</groupsend>
+        <material>http://s2.checheweike.com/store/index.php?route=weixin/material</material>
+    </url>
+</Data>

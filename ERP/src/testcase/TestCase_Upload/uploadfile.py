@@ -16,8 +16,7 @@ class TestCaseFile(unittest.TestCase):
         WebDriverHelp("open", "chrome", "local").setup() #本地用chrome浏览器打开后台地址
     def testcase_file(self):
         dataoper = DataOperations("TestCase_QT_Login.xml")
-        QT_Operations().login(dataoper.read_xml('login', 0, 'storeid'), dataoper.read_xml('login', 0, 'username'), dataoper.read_xml('login', 0, 'password'), dataoper.read_xml('login', 0, "loginbtn"))
-        time.sleep(1)
+        QT_Operations.login()
         WebDriverHelp().geturl(dataoper.read_xml('weixin', 0, 'addurl'))
         time.sleep(1)
 

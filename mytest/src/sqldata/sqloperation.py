@@ -1,3 +1,5 @@
+#coding=utf8
+
 from src.sqldata.dbconnect import dbConnect
 
 class sqlOperation(object):
@@ -5,9 +7,9 @@ class sqlOperation(object):
         db = dbConnect().dbconnce()
         cursor = db.cursor()
         cursor.execute(sql)
-        data = cursor.fetchone()
+        data = cursor.fetchall()
         return data
-        db.close()
 
-if __name__ == "__main__":
-    sqlOperation().sql_select()
+    def closedb(self):
+        db = dbConnect().dbconnce()
+        db.close()

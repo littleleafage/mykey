@@ -1,11 +1,11 @@
+#coding=utf-8
+
 import MySQLdb
 
 class dbConnect(object):
 
     def dbconnce(self):
-        db = MySQLdb.connect("localhost", "yewen", "123456", "test")
+        db = MySQLdb.connect(host="192.168.1.211", user="root", passwd="123456", db="cheche2", charset="utf8")
         return db
 
-if __name__ == "__main":
-    dbConnect().dbconnce()
 

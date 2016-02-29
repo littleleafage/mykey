@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ERP>
+    <common>
+        <comhome></comhome>
+        <download></download>
+    </common>
+    <menu name="菜单">
+        <shopping_cart>//*[@id="menu-checkstand"]/a</shopping_cart> <!-- 收银台 -->
+        <sales>//*[@id="menu-checkstand"]/ul/li[1]/a</sales> <!-- 销售单 -->
+        <sales_back>//*[@id="menu-checkstand"]/ul/li[2]/a</sales_back> <!-- 销售退货单 -->
+        <buy_combo>//*[@id="menu-checkstand"]/ul/li[3]/a</buy_combo> <!-- 套餐购买 -->
+        <recharge>//*[@id="menu-checkstand"]/ul/li[3]/a</recharge> <!-- 会员充值 -->
+        <service_reward>//*[@id="menu-checkstand"]/ul/li[5]/a</service_reward> <!-- 项目赠送 -->
+        <vip_user_combo>//*[@id="menu-checkstand"]/ul/li[6]/a</vip_user_combo> <!-- 会员套餐列表 -->
+        <high_func>//*[@id="menu-checkstand"]/ul/li[7]/a</high_func> <!-- 高级功能 -->
+        <adjust_balance>//*[@id="menu-checkstand"]/ul/li[7]/ul/li[1]/a</adjust_balance> <!-- 余额调整 -->
+        <init_combo>//*[@id="menu-checkstand"]/ul/li[7]/ul/li[2]/a</init_combo> <!-- 调整套餐 -->
+
+        <pur>//*[@id="menu-purchase"]/a</pur> <!-- 采购管理 -->
+        <purchase>//*[@id="menu-purchase"]/ul/li[1]/a</purchase> <!-- 采购单 -->
+        <purchase_back>//*[@id="menu-purchase"]/ul/li[2]/a</purchase_back><!-- 采购退货单 -->
+
+        <stock>//*[@id="menu-stock"]/a</stock> <!-- 库存管理 -->
+        <other_inbound>//*[@id="menu-stock"]/ul/li[1]/a</other_inbound><!-- 其他入库 -->
+        <other_outbound>//*[@id="menu-stock"]/ul/li[2]/a</other_outbound><!-- 其他出库 -->
+        <stock_count>//*[@id="menu-stock"]/ul/li[2]/a</stock_count><!-- 盘点单 -->
+        <stock_transfer>//*[@id="menu-stock"]/ul/li[4]/a</stock_transfer><!-- 调拨单 -->
+        <stock_assemble>//*[@id="menu-stock"]/ul/li[5]/a</stock_assemble><!-- 组装单 -->
+        <stock_disassemble>//*[@id="menu-stock"]/ul/li[6]/a</stock_disassemble> <!-- 拆卸单 -->
+        <stock_record>//*[@id="menu-stock"]/ul/li[7]/a</stock_record> <!-- 出入库明细 -->
+        <stock_warn>//*[@id="menu-stock"]/ul/li[8]/a</stock_warn> <!-- 库存报警 -->
+
+    </menu>
+</ERP>

@@ -9,8 +9,4 @@ import MySQLdb
 class dbConnect(object):
 
     def dbconnect(self):
-        return MySQLdb.connect("localhost", "yewen", "123456", "test")
-
-
-if __name__ == "__main__":
-    dbConnect().dbconnect()
+        return MySQLdb.connect(host="192.168.1.211", user="root", passwd="123456", db="cheche2", charset="utf8")

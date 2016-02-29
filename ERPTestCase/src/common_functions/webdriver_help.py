@@ -4,6 +4,7 @@
 by：yewen
 data_added：2016-02-25
 '''
+from selenium import selenium
 from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
@@ -52,14 +53,14 @@ class WebDriverHelp(object):
                     DRIVER.maximize_window()
         self.DRIVER = DRIVER
 
-    def setup(self):
+    def setup(self, url):
 
         '''
         测试URL
         :return:
         '''
         try:
-            url = "http://s2.checheweike.com/erp"
+            # url = "http://s2.checheweike.com/erp"
             self.DRIVER.get(url)
         except NoSuchElementException:
             print "地址出错"
@@ -67,12 +68,13 @@ class WebDriverHelp(object):
     def geturl(self, url):
         self.DRIVER.get(url)
 
-    def teardown(self):
+    def clickitem(self, findby, elmethod):
         '''
-        关闭浏览器
-        :return:
+        通过定制定位方法，在对应的项目上执行单击操作
+        @param findby：定位方法
+        @param elmethod：要定位元素的属性值
         '''
-        self.DRIVER.quit()
+        self.findelement(findby, elmethod).click()
 
     def findelement(self, findby, elmethod):
         '''
@@ -90,16 +92,14 @@ class WebDriverHelp(object):
         elif(findby == 'byxpath'):
             return self.DRIVER.find_element_by_xpath(elmethod)
 
-    def selectvalue(self, findby, select, selectvalue):
+    def gettext(self, findby, elmethod):
         '''
-        从下拉框中选择指定的项目
-        :param findby: 定位方法
-        :param select: 要执行选择操作的下拉框句柄
-        :param selectvalue: 下拉框中要选择项的文本
-        :return:
+        通过定制定位方法，获取指定元素的文本
+        @param findby：定位方法
+        @param elmethod：要定位元素的属性值
+        @return：返回获取到的元素文本
         '''
-        select = Select(self.findelement(findby, select))
-        select.select_by_visible_text(selectvalue)
+        return self.findelement(findby, elmethod).text
 
     def inputvalue(self, findby, elmenthod, value):
         '''
@@ -110,40 +110,6 @@ class WebDriverHelp(object):
         :return:
         '''
         self.findelement(findby, elmenthod).send_keys(value)
-
-    def gettext(self, findby, elmethod):
-        '''
-        通过定制定位方法，获取指定元素的文本
-        @param findby：定位方法
-        @param elmethod：要定位元素的属性值
-        @return：返回获取到的元素文本
-        '''
-        return self.findelement(findby, elmethod).text
-
-    def clickitem(self, findby, elmethod):
-        '''
-        通过定制定位方法，在对应的项目上执行单击操作
-        @param findby：定位方法
-        @param elmethod：要定位元素的属性值
-        '''
-        self.findelement(findby, elmethod).click()
-
-    def uploadfile(self, findby, elmethod):
-        '''
-        上传文件
-        :param elmethod:定位元素的属性值
-        :param filepath:文件路径
-        :return:
-        '''
-        self.findelement(findby, elmethod).send_keys("G:\\webdriver\\ERP\\1.jpg")
-
-    def screenshot(self, imgname):
-        '''
-        截图
-        :param imgname:图片文件名
-        :return:
-        '''
-        self.DRIVER.save_screenshot("../error/" + imgname)
 
     def isexist(self, findby, elmethod):
         '''
@@ -157,3 +123,45 @@ class WebDriverHelp(object):
             return True
         except:
             return False
+
+    def screenshot(self, imgname):
+        '''
+        截图
+        :param imgname:图片文件名
+        :return:
+        '''
+        self.DRIVER.save_screenshot("../error/" + imgname)
+
+    def selectvalue(self, findby, select, selectvalue):
+        '''
+        从下拉框中选择指定的项目
+        :param findby: 定位方法
+        :param select: 要执行选择操作的下拉框句柄
+        :param selectvalue: 下拉框中要选择项的文本
+        :return:
+        '''
+        select = Select(self.findelement(findby, select))
+        select.select_by_visible_text(selectvalue)
+
+    def switchto(self, type, elmethod):
+        if type == 'iframe':
+            iframe = self.DRIVER.find_element('id', elmethod)
+            self.DRIVER.switch_to.frame(iframe)
+        elif type == 'alert':
+            self.DRIVER.switch_to.alert
+
+    def teardown(self):
+        '''
+        关闭浏览器
+        :return:
+        '''
+        self.DRIVER.quit()
+
+    def uploadfile(self, findby, elmethod, value):
+        '''
+        上传文件
+        :param elmethod:定位元素的属性值
+        :param filepath:文件路径
+        :return:
+        '''
+        self.findelement(findby, elmethod).send_keys(value)
