@@ -5,8 +5,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 
 global G_WEBDRIVER,G_BROWSERTYPE,DRIVER
 
@@ -105,15 +103,16 @@ class WebDriverHelp(object):
         select = Select(self.findelement(findby, select))
         select.select_by_visible_text(selectvalue)
 
-    def inputvalue(self, findby, elmenthod, value):
+    def inputvalue(self, args):
         '''
         在输入框中输入值
-        :param findby: 定位方法
-        :param elmenthod: 要定位元素的属性值
-        :param value: 要给文本框输入的值
+        :param args：列表，存放定位方法(findby)、定位元素的属性值(elmethod)以及要输入的值(value)
         :return:
         '''
-        self.findelement(findby, elmenthod).send_keys(value)
+        print args
+        for i in range(0, len(args)):
+            temp = args[i]
+            self.findelement(temp[0], temp[1]).send_keys(temp[2])
 
     def gettext(self, findby, elmethod):
         '''
@@ -122,15 +121,21 @@ class WebDriverHelp(object):
         @param elmethod：要定位元素的属性值
         @return：返回获取到的元素文本
         '''
-        return self.findelement(findby, elmethod)
+        return self.findelement(findby, elmethod).text
 
-    def clickitem(self, findby, elmethod):
+    def clickitem(self, args):
         '''
         通过定制定位方法，在对应的项目上执行单击操作
         @param findby：定位方法
         @param elmethod：要定位元素的属性值
         '''
-        self.findelement(findby, elmethod).click()
+        length = len(args)
+        if length == 1:
+            self.findelement(args[0], args[1]).click()
+        else:
+            for i in range(0, len(args)):
+                temp = args[i]
+                self.findelement(temp[0], temp[1]).click()
 
     def uploadfile(self, findby, elmethod):
         '''

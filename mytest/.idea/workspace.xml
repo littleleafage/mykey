@@ -21,31 +21,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sqltest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sqltest.py">
+      <file leaf-file-name="webdriver_help.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15966387">
+              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+              <folding>
+                <element signature="e#380#1888#0" expanded="false" />
+                <element signature="e#1920#2127#0" expanded="false" />
+                <element signature="e#2161#2234#0" expanded="false" />
+                <element signature="e#2271#2375#0" expanded="false" />
+                <element signature="e#2430#2982#0" expanded="false" />
+                <element signature="e#3048#3315#0" expanded="false" />
+                <element signature="e#3357#3477#1" expanded="false" />
+                <element signature="e#3678#3863#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qt_operations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbconnect.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sqldata/dbconnect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27941176">
-              <caret line="7" column="109" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqloperation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sqldata/sqloperation.py">
+      <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trainig/case.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="18" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,13 +88,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/mysqldb.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/mysqldb.py" />
         <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
         <option value="$PROJECT_DIR$/src/kuaijiejian" />
         <option value="C:/Python27/Lib/site-packages/PIL/Image.py" />
-        <option value="$PROJECT_DIR$/src/test.py" />
         <option value="$PROJECT_DIR$/src/imgtest.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
         <option value="$PROJECT_DIR$/src/testdata/dbconnect.py" />
         <option value="$PROJECT_DIR$/src/testdata/sqldata.py" />
         <option value="$PROJECT_DIR$/src/testdata/sqloperation.py" />
@@ -81,14 +99,18 @@
         <option value="$PROJECT_DIR$/src/common_functions/__init__.py" />
         <option value="$PROJECT_DIR$/src/sqldata/__init__.py" />
         <option value="$PROJECT_DIR$/src/sqldata/dbconnect.py" />
-        <option value="$PROJECT_DIR$/src/sqltest.py" />
         <option value="$PROJECT_DIR$/src/sqldata/sqloperation.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/mysqldb.py" />
+        <option value="$PROJECT_DIR$/src/sqltest.py" />
+        <option value="$PROJECT_DIR$/src/trainig/case.py" />
+        <option value="$PROJECT_DIR$/src/test.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="565" />
-    <option name="y" value="110" />
+    <option name="x" value="608" />
+    <option name="y" value="104" />
     <option name="width" value="1121" />
     <option name="height" value="899" />
   </component>
@@ -118,7 +140,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,6 +200,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,24 +225,7 @@
       <recent name="G:\webdriver\mytest\src\common_functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sqltest (1)">
-    <configuration default="false" name="dbconnect" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testdata" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="mytest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testdata/dbconnect.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.case">
     <configuration default="false" name="sqloperation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,6 +273,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="mytest" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/sqldata/dbconnect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mytest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/trainig" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mytest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/trainig/case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -433,20 +477,22 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.sqltest (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in sqldata" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dbconnect" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sqloperation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sqltest" />
-      <item index="5" class="java.lang.String" itemvalue="Python.dbconnect (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sqloperation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sqltest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dbconnect (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test" />
+      <item index="6" class="java.lang.String" itemvalue="Python.case" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.dbconnect (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sqltest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sqloperation" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dbconnect" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.case" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dbconnect (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sqltest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sqloperation" />
       </list>
     </recent_temporary>
   </component>
@@ -464,39 +510,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_sqldata - 2016.02.25 at 09h 54m 24s.xml">
-      <configuration name="Unittests in sqldata" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_sqldata - 2016.02.25 at 09h 55m 17s.xml">
-      <configuration name="Unittests in sqldata" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_sqldata - 2016.02.25 at 09h 56m 05s.xml">
-      <configuration name="Unittests in sqldata" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test - 2016.02.24 at 16h 02m 32s.xml">
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 10m 25s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2016.02.24 at 16h 02m 53s.xml">
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 10m 54s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2016.02.24 at 16h 06m 07s.xml">
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 11m 22s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2016.02.24 at 16h 06m 43s.xml">
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 12m 40s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2016.02.24 at 16h 07m 34s.xml">
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 14m 17s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2016.02.24 at 16h 14m 26s.xml">
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 15m 42s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test - 2016.02.24 at 17h 34m 29s.xml">
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 17m 54s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 20m 10s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 20m 40s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test - 2016.03.01 at 18h 26m 28s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="110" width="1121" height="899" extended-state="1" />
+    <frame x="608" y="104" width="1121" height="899" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16199096" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -535,15 +581,45 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sqltest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sqldata/dbconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sqldata/sqloperation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sqltest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,32 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/mysqldb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21714285">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/data_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31088084">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kuaijiejian">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5176282">
           <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sqldata/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03869654">
@@ -810,21 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039915968">
           <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4012605">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24159664">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -832,22 +864,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.170168">
           <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/data_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47251308">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sqldata/sqloperation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sqltest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.39915967">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -857,6 +887,90 @@
         <state vertical-scroll-proportion="0.27941176">
           <caret line="7" column="109" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="109" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/mysqldb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="188" column="12" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33193278">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sqltest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6785714">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#25#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33193278">
+          <caret line="453" column="4" selection-start-line="453" selection-start-column="4" selection-end-line="453" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trainig/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15966387">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+          <folding>
+            <element signature="e#380#1888#0" expanded="false" />
+            <element signature="e#1920#2127#0" expanded="false" />
+            <element signature="e#2161#2234#0" expanded="false" />
+            <element signature="e#2271#2375#0" expanded="false" />
+            <element signature="e#2430#2982#0" expanded="false" />
+            <element signature="e#3048#3315#0" expanded="false" />
+            <element signature="e#3357#3477#1" expanded="false" />
+            <element signature="e#3678#3863#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
