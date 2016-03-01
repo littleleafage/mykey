@@ -25,13 +25,11 @@
         <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="180" column="46" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
+              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
               <folding>
                 <element signature="e#30#60#0" expanded="true" />
                 <element signature="e#2275#2348#0" expanded="false" />
                 <element signature="e#2385#2489#0" expanded="false" />
-                <element signature="e#2544#3096#0" expanded="false" />
-                <element signature="e#3162#3429#0" expanded="false" />
                 <element signature="e#3800#3985#0" expanded="false" />
                 <element signature="e#4250#4480#0" expanded="false" />
                 <element signature="e#4525#4656#0" expanded="false" />
@@ -57,21 +55,11 @@
       <file leaf-file-name="uploadfile.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42336875">
+            <state vertical-scroll-proportion="0.19271624">
               <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="e#29#40#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase_QT_Login.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.571429">
-              <caret line="18" column="86" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -144,7 +132,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
+    <option name="x" value="176" />
     <option name="y" value="28" />
     <option name="width" value="1251" />
     <option name="height" value="794" />
@@ -174,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,7 +215,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -585,7 +573,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="28" width="1251" height="794" extended-state="0" />
+    <frame x="176" y="28" width="1251" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17651822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -960,33 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.571429">
-          <caret line="18" column="86" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="180" column="46" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
-          <folding>
-            <element signature="e#30#60#0" expanded="true" />
-            <element signature="e#2275#2348#0" expanded="false" />
-            <element signature="e#2385#2489#0" expanded="false" />
-            <element signature="e#2544#3096#0" expanded="false" />
-            <element signature="e#3162#3429#0" expanded="false" />
-            <element signature="e#3800#3985#0" expanded="false" />
-            <element signature="e#4250#4480#0" expanded="false" />
-            <element signature="e#4525#4656#0" expanded="false" />
-            <element signature="e#4707#4942#0" expanded="false" />
-            <element signature="e#4981#5091#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -997,9 +958,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <folding>
+            <element signature="e#30#60#0" expanded="true" />
+            <element signature="e#2275#2348#0" expanded="false" />
+            <element signature="e#2385#2489#0" expanded="false" />
+            <element signature="e#3800#3985#0" expanded="false" />
+            <element signature="e#4250#4480#0" expanded="false" />
+            <element signature="e#4525#4656#0" expanded="false" />
+            <element signature="e#4707#4942#0" expanded="false" />
+            <element signature="e#4981#5091#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3312203">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="n#weixin#0;n#TestData#0;n#!!top" expanded="false" />
+            <element signature="n#mendian#0;n#TestData#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42336875">
+        <state vertical-scroll-proportion="0.19271624">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#29#40#0" expanded="true" />
