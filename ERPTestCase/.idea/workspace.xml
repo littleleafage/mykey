@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5010680-c0e2-4b72-95e6-7b65777501b1" name="Default" comment="" />
+    <list default="true" id="b5010680-c0e2-4b72-95e6-7b65777501b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/qt_opera.py" afterPath="$PROJECT_DIR$/src/common_functions/qt_opera.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/sqltest.py" afterPath="$PROJECT_DIR$/src/testcase/sqltest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testdata/crmmenu.xml" afterPath="$PROJECT_DIR$/src/testdata/crmmenu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testdata/erpmenu.xml" afterPath="$PROJECT_DIR$/src/testdata/erpmenu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testdata/testcase_login.xml" afterPath="$PROJECT_DIR$/src/testdata/testcase_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mytest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mytest/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mytest/src/common_functions/mysqldb.py" afterPath="$PROJECT_DIR$/../mytest/src/common_functions/mysqldb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mytest/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/../mytest/src/common_functions/webdriver_help.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mytest/src/sqltest.py" afterPath="$PROJECT_DIR$/../mytest/src/sqltest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mytest/src/test.py" afterPath="$PROJECT_DIR$/../mytest/src/test.py" />
+    </list>
     <ignored path="ERPTestCase.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,44 +33,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sqltest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/sqltest.py">
+      <file leaf-file-name="webdriver_help.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="74" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testcaselogin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testcase/testcaselogin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5100671">
-              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.078299776">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
-                <element signature="e#14#25#0" expanded="true" />
+                <element signature="e#2417#2575#0" expanded="false" />
+                <element signature="e#2417#2524#1" expanded="false" />
+                <element signature="e#2630#3182#0" expanded="false" />
+                <element signature="e#3233#3418#0" expanded="false" />
+                <element signature="e#3480#3686#0" expanded="false" />
+                <element signature="e#3737#3972#0" expanded="false" />
+                <element signature="e#4017#4148#0" expanded="false" />
+                <element signature="e#4214#4481#0" expanded="false" />
+                <element signature="e#4531#4731#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbopera.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common_functions/dbopera.py">
+      <file leaf-file-name="testcaselogin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/testcaselogin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbconnect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common_functions/dbconnect.py">
+      <file leaf-file-name="qt_opera.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common_functions/qt_opera.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="111" selection-start-line="11" selection-start-column="111" selection-end-line="11" selection-end-column="111" />
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crmmenu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testdata/crmmenu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3571428">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="n#menu#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#vip_user#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#car#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#weixin#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#marketing#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#coupon#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#lottery#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#hongbao#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#reminder#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#opportunity#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#credits#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#service#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#reservation#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#setting#0;n#CRM#0;n#!!top" expanded="false" />
+                <element signature="n#wx#0;n#CRM#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +108,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,26 +126,26 @@
         <option value="$PROJECT_DIR$/src/testdata/testcase_wxuploadfile.py" />
         <option value="$PROJECT_DIR$/src/testcase/testcase_wxuploadfile.py" />
         <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/qt_opera.py" />
         <option value="$PROJECT_DIR$/src/testcase/erpmenu.xml" />
         <option value="$PROJECT_DIR$/src/testdata/crmmenu" />
-        <option value="$PROJECT_DIR$/src/testdata/testcase_login.xml" />
-        <option value="$PROJECT_DIR$/src/testdata/erpmenu.xml" />
-        <option value="$PROJECT_DIR$/src/testdata/crmmenu.xml" />
         <option value="$PROJECT_DIR$/src/common_functions/dbconnect.py" />
         <option value="$PROJECT_DIR$/src/common_functions/dbopera.py" />
-        <option value="$PROJECT_DIR$/src/testcase/sqltest.py" />
         <option value="$PROJECT_DIR$/src/testcase/testcaselogin.py" />
+        <option value="$PROJECT_DIR$/src/testcase/sqltest.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/qt_opera.py" />
+        <option value="$PROJECT_DIR$/src/testdata/erpmenu.xml" />
+        <option value="$PROJECT_DIR$/src/testdata/testcase_login.xml" />
+        <option value="$PROJECT_DIR$/src/testdata/crmmenu.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-42" />
-    <option name="y" value="98" />
-    <option name="width" value="1462" />
+    <option name="x" value="478" />
+    <option name="y" value="51" />
+    <option name="width" value="1045" />
     <option name="height" value="737" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -183,30 +222,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPTestCase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ERPTestCase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common_functions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mytest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ERP" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -222,28 +243,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in testcaselogin (1)">
-    <configuration default="false" name="Unittests in testcaselogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ERPTestCase" />
-      <option name="SCRIPT_NAME" value="G:\webdriver\ERPTestCase\src\testcase\testcaselogin.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in testcaselogin (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,6 +317,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ERPTestCase" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/sqltest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="qt_opera" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/common_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ERPTestCase" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/common_functions/qt_opera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -445,19 +461,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in testcaselogin" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in testcaselogin (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testAll" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in testcase_wxuploadfile" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sqltest" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in testcaselogin (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.testAll" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testcase_wxuploadfile" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sqltest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.qt_opera" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in testcaselogin (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sqltest" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testcase_wxuploadfile" />
-        <item index="3" class="java.lang.String" itemvalue="Python.testAll" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in testcaselogin" />
+        <item index="1" class="java.lang.String" itemvalue="Python.qt_opera" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sqltest" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in testcase_wxuploadfile" />
+        <item index="4" class="java.lang.String" itemvalue="Python.testAll" />
       </list>
     </recent_temporary>
   </component>
@@ -475,15 +491,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_testcase_wxuploadfile - 2016.02.29 at 11h 16m 32s.xml">
-      <configuration name="Unittests in testcase_wxuploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_testcase_wxuploadfile - 2016.02.29 at 11h 17m 56s.xml">
-      <configuration name="Unittests in testcase_wxuploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_testcase_wxuploadfile - 2016.02.29 at 11h 18m 36s.xml">
-      <configuration name="Unittests in testcase_wxuploadfile" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_testcaselogin_(1) - 2016.02.29 at 11h 21m 56s.xml">
       <configuration name="Unittests in testcaselogin (1)" configurationId="tests" />
     </history-entry>
@@ -505,12 +512,21 @@
     <history-entry file="Unittests_in_testcaselogin_(1) - 2016.02.29 at 17h 48m 35s.xml">
       <configuration name="Unittests in testcaselogin (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_testcaselogin_(1) - 2016.03.01 at 14h 40m 19s.xml">
+      <configuration name="Unittests in testcaselogin (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcaselogin_(1) - 2016.03.01 at 15h 54m 34s.xml">
+      <configuration name="Unittests in testcaselogin (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testcaselogin_(1) - 2016.03.01 at 17h 32m 09s.xml">
+      <configuration name="Unittests in testcaselogin (1)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-42" y="98" width="1462" height="737" extended-state="0" />
+    <frame x="478" y="51" width="1045" height="737" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12033195" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16909622" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -545,19 +561,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/testdata/testcase_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/sqltest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="111" selection-start-line="11" selection-start-column="111" selection-end-line="11" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,22 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding>
-            <element signature="e#61#90#0" expanded="false" />
-            <element signature="e#423#473#1" expanded="false" />
-            <element signature="e#554#2062#0" expanded="false" />
-            <element signature="e#2344#2364#0" expanded="false" />
-            <element signature="e#2417#2575#0" expanded="false" />
-            <element signature="e#2630#3182#0" expanded="false" />
-            <element signature="e#3233#3418#0" expanded="false" />
-            <element signature="e#3480#3686#0" expanded="false" />
-            <element signature="e#3737#3972#0" expanded="false" />
-            <element signature="e#4017#4148#0" expanded="false" />
-            <element signature="e#4214#4481#0" expanded="false" />
-            <element signature="e#4531#4731#0" expanded="false" />
-            <element signature="e#4765#4838#0" expanded="false" />
-            <element signature="e#4899#5066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,22 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-          <folding>
-            <element signature="e#61#90#0" expanded="false" />
-            <element signature="e#423#473#1" expanded="false" />
-            <element signature="e#554#2062#0" expanded="false" />
-            <element signature="e#2344#2364#0" expanded="false" />
-            <element signature="e#2417#2575#0" expanded="false" />
-            <element signature="e#2630#3182#0" expanded="false" />
-            <element signature="e#3233#3418#0" expanded="false" />
-            <element signature="e#3480#3686#0" expanded="false" />
-            <element signature="e#3737#3972#0" expanded="false" />
-            <element signature="e#4017#4148#0" expanded="false" />
-            <element signature="e#4214#4481#0" expanded="false" />
-            <element signature="e#4531#4731#0" expanded="false" />
-            <element signature="e#4765#4838#0" expanded="false" />
-            <element signature="e#4899#5066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#69#80#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,22 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-          <folding>
-            <element signature="e#61#90#0" expanded="false" />
-            <element signature="e#423#473#1" expanded="false" />
-            <element signature="e#554#2062#0" expanded="false" />
-            <element signature="e#2344#2364#0" expanded="false" />
-            <element signature="e#2417#2575#0" expanded="false" />
-            <element signature="e#2630#3182#0" expanded="false" />
-            <element signature="e#3233#3418#0" expanded="false" />
-            <element signature="e#3480#3686#0" expanded="false" />
-            <element signature="e#3737#3972#0" expanded="false" />
-            <element signature="e#4017#4148#0" expanded="false" />
-            <element signature="e#4214#4481#0" expanded="false" />
-            <element signature="e#4531#4731#0" expanded="false" />
-            <element signature="e#4765#4838#0" expanded="false" />
-            <element signature="e#4899#5066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,9 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#69#80#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,9 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,22 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-          <folding>
-            <element signature="e#61#90#0" expanded="false" />
-            <element signature="e#423#473#1" expanded="false" />
-            <element signature="e#554#2062#0" expanded="false" />
-            <element signature="e#2344#2364#0" expanded="false" />
-            <element signature="e#2417#2575#0" expanded="false" />
-            <element signature="e#2630#3182#0" expanded="false" />
-            <element signature="e#3233#3418#0" expanded="false" />
-            <element signature="e#3480#3686#0" expanded="false" />
-            <element signature="e#3737#3972#0" expanded="false" />
-            <element signature="e#4017#4148#0" expanded="false" />
-            <element signature="e#4214#4481#0" expanded="false" />
-            <element signature="e#4531#4731#0" expanded="false" />
-            <element signature="e#4765#4838#0" expanded="false" />
-            <element signature="e#4899#5066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,9 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#69#80#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,22 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#61#90#0" expanded="false" />
-            <element signature="e#423#473#1" expanded="false" />
-            <element signature="e#554#2062#0" expanded="false" />
-            <element signature="e#2344#2364#0" expanded="false" />
-            <element signature="e#2417#2575#0" expanded="false" />
-            <element signature="e#2630#3182#0" expanded="false" />
-            <element signature="e#3233#3418#0" expanded="false" />
-            <element signature="e#3480#3686#0" expanded="false" />
-            <element signature="e#3737#3972#0" expanded="false" />
-            <element signature="e#4017#4148#0" expanded="false" />
-            <element signature="e#4214#4481#0" expanded="false" />
-            <element signature="e#4531#4731#0" expanded="false" />
-            <element signature="e#4765#4838#0" expanded="false" />
-            <element signature="e#4899#5066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,9 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#69#80#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,9 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,22 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#61#90#0" expanded="false" />
-            <element signature="e#423#473#1" expanded="false" />
-            <element signature="e#554#2062#0" expanded="false" />
-            <element signature="e#2344#2364#0" expanded="false" />
-            <element signature="e#2417#2575#0" expanded="false" />
-            <element signature="e#2630#3182#0" expanded="false" />
-            <element signature="e#3233#3418#0" expanded="false" />
-            <element signature="e#3480#3686#0" expanded="false" />
-            <element signature="e#3737#3972#0" expanded="false" />
-            <element signature="e#4017#4148#0" expanded="false" />
-            <element signature="e#4214#4481#0" expanded="false" />
-            <element signature="e#4531#4731#0" expanded="false" />
-            <element signature="e#4765#4838#0" expanded="false" />
-            <element signature="e#4899#5066#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,9 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#69#80#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62422997">
           <caret line="495" column="36" selection-start-line="495" selection-start-column="36" selection-end-line="495" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,39 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_opera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding>
-            <element signature="e#69#80#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6564195">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding>
-            <element signature="e#61#90#0" expanded="false" />
-            <element signature="e#423#473#1" expanded="false" />
-            <element signature="e#554#2062#0" expanded="false" />
-            <element signature="e#2344#2364#0" expanded="false" />
-            <element signature="e#2417#2575#0" expanded="false" />
-            <element signature="e#2630#3182#0" expanded="false" />
-            <element signature="e#3233#3418#0" expanded="false" />
-            <element signature="e#3480#3686#0" expanded="false" />
-            <element signature="e#3737#3972#0" expanded="false" />
-            <element signature="e#4017#4148#0" expanded="false" />
-            <element signature="e#4214#4481#0" expanded="false" />
-            <element signature="e#4531#4731#0" expanded="false" />
-            <element signature="e#4765#4838#0" expanded="false" />
-            <element signature="e#4899#5066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/testcase_wxuploadfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4159132">
@@ -986,41 +825,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/crmmenu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12694877">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/erpmenu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8886414">
-          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/MySQLdb/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33246073">
           <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/testcase_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033101045">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/dbconnect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="111" selection-start-line="11" selection-start-column="111" selection-end-line="11" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,24 +836,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/demjson-2.2.4-py2.7.egg/demjson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37136465">
+          <caret line="775" column="55" selection-start-line="775" selection-start-column="49" selection-end-line="775" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/dbconnect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/demjson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5017" column="4" selection-start-line="5017" selection-start-column="4" selection-end-line="5017" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/sqltest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.5100671">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/erpmenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.090692125">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="n#menu#1;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu#2;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu#3;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu#4;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu#5;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu#6;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu#7;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu#8;n#ERP#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/testcase_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4988067">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20581655">
+          <caret line="767" column="4" selection-start-line="767" selection-start-column="4" selection-end-line="767" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/crmmenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="n#menu#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#vip_user#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#car#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#weixin#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#marketing#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#coupon#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#lottery#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#hongbao#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#reminder#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#opportunity#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#credits#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#service#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#reservation#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#setting#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#wx#0;n#CRM#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/testcaselogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5100671">
-          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078299776">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
-            <element signature="e#14#25#0" expanded="true" />
+            <element signature="e#2417#2575#0" expanded="false" />
+            <element signature="e#2417#2524#1" expanded="false" />
+            <element signature="e#2630#3182#0" expanded="false" />
+            <element signature="e#3233#3418#0" expanded="false" />
+            <element signature="e#3480#3686#0" expanded="false" />
+            <element signature="e#3737#3972#0" expanded="false" />
+            <element signature="e#4017#4148#0" expanded="false" />
+            <element signature="e#4214#4481#0" expanded="false" />
+            <element signature="e#4531#4731#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -13,7 +13,7 @@ class QT_Opera(object):
     def login(self):
         WebDriverHelp("open", "chrome", "local").setup("http://s2.checheweike.com/erp")
         data = DataOpera("testcase_login.xml")
-        storeid = data.read_xml('login', 0, 'storeid')
+        storeid = data.read_xml('login', 1, 'storeid')
         username = data.read_xml('login', 0, 'username')
         password = data.read_xml('login', 0, 'password')
         loginbtn = data.read_xml('login', 0, 'loginbtn')
