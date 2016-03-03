@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6656ea8-3bfe-4b01-9dc1-e329c1ebfbd7" name="Default" comment="" />
+    <list default="true" id="d6656ea8-3bfe-4b01-9dc1-e329c1ebfbd7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/qt_operations.py" afterPath="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml" afterPath="$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py" afterPath="$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/login/login.py" afterPath="$PROJECT_DIR$/src/testcase/login/login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERPTestCase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ERPTestCase/.idea/workspace.xml" />
+    </list>
     <ignored path="ERP.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,16 +34,31 @@
         <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="e#30#60#0" expanded="true" />
                 <element signature="e#2275#2348#0" expanded="false" />
                 <element signature="e#2385#2489#0" expanded="false" />
-                <element signature="e#3800#3985#0" expanded="false" />
-                <element signature="e#4250#4480#0" expanded="false" />
-                <element signature="e#4525#4656#0" expanded="false" />
-                <element signature="e#4707#4942#0" expanded="false" />
-                <element signature="e#4981#5091#0" expanded="false" />
+                <element signature="e#3802#3987#0" expanded="false" />
+                <element signature="e#4040#4198#0" expanded="false" />
+                <element signature="e#4252#4482#0" expanded="false" />
+                <element signature="e#4527#4658#0" expanded="false" />
+                <element signature="e#4709#4944#0" expanded="false" />
+                <element signature="e#4983#5093#0" expanded="false" />
+                <element signature="e#5140#5233#0" expanded="false" />
+                <element signature="e#5269#5307#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <element signature="e#43#54#0" expanded="true" />
               </folding>
@@ -52,11 +76,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadfile.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testcase/login/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36666667">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCase_QT_Login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.107143">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadfile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19271624">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="e#29#40#0" expanded="true" />
               </folding>
@@ -74,11 +118,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CommonFunction/QT_Operations.py" />
-        <option value="$PROJECT_DIR$/testData/TestCase_QT_Login.xml" />
         <option value="$PROJECT_DIR$/login/test_logout.py" />
         <option value="$PROJECT_DIR$/login/test_login.py" />
         <option value="$PROJECT_DIR$/TestSuite_Online_All.py" />
@@ -113,38 +158,40 @@
         <option value="$PROJECT_DIR$/src/testcase/login/testcase_login.py" />
         <option value="$PROJECT_DIR$/src/testcase/login/crm_login.py" />
         <option value="$PROJECT_DIR$/src/TestSuites/testsuite_online_all.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/src/testData/sqlconnect.py" />
         <option value="$PROJECT_DIR$/src/testData/__init__.py" />
         <option value="$PROJECT_DIR$/src/testData/sqloperation.py" />
         <option value="$PROJECT_DIR$/src/testData/dbconnect.py" />
-        <option value="$PROJECT_DIR$/src/testcase/login/login.py" />
         <option value="$PROJECT_DIR$/src/common_functions/data_operations.py" />
         <option value="$PROJECT_DIR$/inter/sfd.html" />
         <option value="$PROJECT_DIR$/inter/test.py" />
         <option value="$PROJECT_DIR$/inter/js.html" />
         <option value="$PROJECT_DIR$/sfd/dfds.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
-        <option value="$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml" />
-        <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py" />
+        <option value="$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml" />
+        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
+        <option value="$PROJECT_DIR$/src/testData/erpmenu.xml" />
+        <option value="$PROJECT_DIR$/src/testData/crmmenu.xml" />
+        <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
+        <option value="$PROJECT_DIR$/src/testcase/login/login.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="28" />
-    <option name="width" value="1251" />
+    <option name="x" value="21" />
+    <option name="y" value="75" />
+    <option name="width" value="1331" />
     <option name="height" value="794" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -163,6 +210,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,13 +257,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="testcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common_functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,12 +328,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ERPTestCase" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\webdriver\ERP\src\TestSuites" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\webdriver\ERP" />
       <recent name="G:\webdriver\ERP\src\testcase\TestCase_UploadImg" />
@@ -236,30 +338,12 @@
       <recent name="G:\webdriver\ERP\src\CommanFunction" />
       <recent name="G:\webdriver\ERP\src\error" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\webdriver\ERP\src\testData" />
+      <recent name="G:\webdriver\ERP\src\TestSuites" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in uploadfile">
-    <configuration default="false" name="Unittests in login (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/login" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ERP" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/login/login.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in login">
     <configuration default="false" name="testsuite_online_all (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,28 +383,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in TestCaseFile" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/TestCase_Upload" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ERP" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py" />
-      <option name="CLASS_NAME" value="TestCaseFile" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,6 +398,45 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inter/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ERP" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/testcase/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ERP" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testcase/login/login.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -507,19 +608,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in testsuite_online_all" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestCase_UploadImg" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in login (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.testsuite_online_all (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in uploadfile" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in TestCaseFile" />
-      <item index="6" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.testsuite_online_all (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in uploadfile" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in login" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in uploadfile" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testsuite_online_all (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestCaseFile" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in login (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in login" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in uploadfile" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testsuite_online_all (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -541,58 +642,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_uploadfile - 2016.02.27 at 13h 08m 02s.xml">
+    <history-entry file="Unittests_in_login - 2016.03.03 at 13h 54m 44s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login - 2016.03.03 at 13h 55m 40s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login - 2016.03.03 at 13h 56m 23s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login - 2016.03.03 at 13h 57m 01s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login - 2016.03.03 at 13h 57m 31s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login - 2016.03.03 at 14h 02m 19s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login - 2016.03.03 at 14h 07m 26s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login - 2016.03.03 at 14h 08m 03s.xml">
+      <configuration name="Unittests in login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_uploadfile - 2016.03.03 at 13h 35m 30s.xml">
       <configuration name="Unittests in uploadfile" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.27 at 13h 11m 06s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.27 at 13h 11m 39s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.27 at 13h 12m 06s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.27 at 13h 14m 17s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.29 at 09h 38m 04s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.29 at 09h 44m 57s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.29 at 09h 45m 53s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.29 at 10h 33m 07s.xml">
-      <configuration name="Unittests in uploadfile" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_uploadfile - 2016.02.29 at 10h 33m 46s.xml">
+    <history-entry file="Unittests_in_uploadfile - 2016.03.03 at 13h 36m 40s.xml">
       <configuration name="Unittests in uploadfile" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="28" width="1251" height="794" extended-state="0" />
+    <frame x="21" y="75" width="1331" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17651822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3921283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29752067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20116618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3432836" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29752067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -618,25 +719,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common_functions/data_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/ERP测试/fea.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.237525">
@@ -829,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/data_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -913,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/login/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/switch_to.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -943,17 +1016,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.086363636">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
+    <entry file="file://$PROJECT_DIR$/src/common_functions/data_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11472275">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
-            <element signature="e#43#54#0" expanded="true" />
+            <element signature="e#29#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testData/erpmenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="14" />
+          <folding>
+            <element signature="n#menu#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_sales#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_purchase#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_stock#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_balances#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_jixiao#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_report#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_history#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_foundation#0;n#ERP#0;n#!!top" expanded="false" />
+            <element signature="n#menu_set#0;n#ERP#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testData/crmmenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10497238">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="n#menu#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#vip_user#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#car#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#weixin#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#marketing#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#coupon#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#lottery#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#hongbao#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#reminder#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#opportunity#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#credits#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#service#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#reservation#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#setting#0;n#CRM#0;n#!!top" expanded="false" />
+            <element signature="n#wx#0;n#CRM#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -961,38 +1096,38 @@
     <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
             <element signature="e#30#60#0" expanded="true" />
             <element signature="e#2275#2348#0" expanded="false" />
             <element signature="e#2385#2489#0" expanded="false" />
-            <element signature="e#3800#3985#0" expanded="false" />
-            <element signature="e#4250#4480#0" expanded="false" />
-            <element signature="e#4525#4656#0" expanded="false" />
-            <element signature="e#4707#4942#0" expanded="false" />
-            <element signature="e#4981#5091#0" expanded="false" />
+            <element signature="e#3802#3987#0" expanded="false" />
+            <element signature="e#4040#4198#0" expanded="false" />
+            <element signature="e#4252#4482#0" expanded="false" />
+            <element signature="e#4527#4658#0" expanded="false" />
+            <element signature="e#4709#4944#0" expanded="false" />
+            <element signature="e#4983#5093#0" expanded="false" />
+            <element signature="e#5140#5233#0" expanded="false" />
+            <element signature="e#5269#5307#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml">
+    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3312203">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
-            <element signature="n#weixin#0;n#TestData#0;n#!!top" expanded="false" />
-            <element signature="n#mendian#0;n#TestData#0;n#!!top" expanded="false" />
+            <element signature="e#43#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py">
+    <entry file="file://$PROJECT_DIR$/src/testcase/login/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19271624">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#29#40#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.36666667">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

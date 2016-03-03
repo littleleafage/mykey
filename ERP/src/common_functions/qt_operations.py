@@ -7,25 +7,17 @@ from src.common_functions.webdriver_help import WebDriverHelp
 from src.common_functions.data_operations import DataOperations
 class QT_Operations(object):
 
-    def login(self):
-        WebDriverHelp("open", "chrome", "local").setup("http://s2.checheweike.com/erp")
-        data = DataOperations("testcase_login.xml")
-        storeid = data.read_xml('login', 0, 'storeid')
-        username = data.read_xml('login', 0, 'username')
-        password = data.read_xml('login', 0, 'password')
-        loginbtn = data.read_xml('login', 0, 'loginbtn')
-        WebDriverHelp().inputvalue('byname', 'store_id', storeid)
-        WebDriverHelp().inputvalue('byname', 'username', username)
-        WebDriverHelp().inputvalue('byname', 'password', password)
-        time.sleep(0.5)
-        WebDriverHelp().clickitem("byxpath", loginbtn)
-        time.sleep(1)
+    def login(self, logindata):
+        list = []
+        for i in range(len(logindata)):
+            temp = logindata[i]
+            if temp[2] != "":
+                WebDriverHelp().inputvalue(temp[0],temp[1],temp[2])
+            else:
+                WebDriverHelp().clickitem(temp[0], temp[1])
+            time.sleep(0.5)
 
     def logout(self, url):
-        '''WebDriverHelp().clickitem("bypath", user_btn)
-        time.sleep(0.5)
-        WebDriverHelp().clickitem("bypath", logout_btn)
-        time.sleep(1)'''
         WebDriverHelp().geturl(url)
 
     def upload(self, xpath):

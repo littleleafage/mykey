@@ -16,16 +16,20 @@ class TestcaseLogin(unittest.TestCase):
 
     def testcase_login(self):
         dataoper = DataOperations("TestCase_QT_Login.xml")
-        QT_Operations().login(dataoper.read_xml('login', 0, 'storeid'), dataoper.read_xml('login', 0, 'username'), dataoper.read_xml('login', 0, 'password'), dataoper.read_xml('login', 0, "loginbtn"))
-        time.sleep(2)
+        store = ["byname", "store_id", dataoper.read_xml('login', 0, 'storeid')]
+        username = ["byname", "username", dataoper.read_xml('login', 0, 'username')]
+        password = ["byname", "password", dataoper.read_xml('login', 0, 'password')]
+        loginbtn = ['classname', 'login']
+        logindata = []
+        logindata.append(store)
+        logindata.append(username)
+        logindata.append(password)
+        QT_Operations().login(logindata)
         WebDriverHelp().geturl('http://s2.checheweike.com/erp/index.php?route=finance/other_income/insert')
         time.sleep(1)
-        # WebDriverHelp().selectvalue("byxpath", "//*[@id='content']/div/div[2]/form/div[2]/table/tbody/tr[1]/td[2]/select", u"销售退款")
-        # time.sleep(3)
+        WebDriverHelp().selectvalue("byxpath", "//*[@id='content']/div/div[2]/form/div[2]/table/tbody/tr[1]/td[2]/select", u"销售退款")
+        time.sleep(3)
 
-        QT_Operations().logout(dataoper.read_xml('login', 0, 'logouturl')) #退出登录
-        time.sleep(1)
-
-    def tearDown(self):
-        WebDriverHelp().teardown() #关闭浏览器
+    # def tearDown(self):
+    #     WebDriverHelp().teardown() #关闭浏览器
 

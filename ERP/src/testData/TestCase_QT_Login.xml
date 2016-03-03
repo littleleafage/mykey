@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<TestData>
+<Data>
     <login name="登录测试数据">
-        <storeid>10054</storeid>
-        <username>yewen</username>
-        <password>ccwk0715</password>
-        <checkpoint1>//*[@id='header-nav-user']/div/a/span</checkpoint1><!-- 获取登录后的用户名 -->
-        <loginbtn>//*[@id='form1']/li[5]</loginbtn>
-        <logoutbtn>//*[@id='header-nav-user']/div/div/div[2]/a</logoutbtn>
-        <logouturl>http://s2.checheweike.com/erp/index.php?route=common/logout</logouturl>
+        <storeid>10054</storeid> <!-- 商户号 -->
+        <username>yewen</username><!-- 用户名 -->
+        <password>ccwk0715</password><!--密码-->
+        <loginbtn>//*[@id='form1']/li[5]</loginbtn><!-- 密码 -->
+        <logouturl>http://s2.checheweike.com/erp/index.php?route=common/logout</logouturl><!-- 登出url -->
+        <checkusername>//*[@id='header-nav-user']/div/a/span</checkusername>
     </login>
-    <weixin name="素材管理图片上传测试">
-        <crm>//*[@id='navi-tabs']/a[1]</crm>
-        <erp>//*[@id='navi-tabs']/a[2]</erp>
-        <wx>//*[@id='menu-weixin']/a</wx>
-        <qunfa>//*[@id='menu-weixin']/ul/li[3]</qunfa>
-        <sucaiguanli>//*[@id='menu-weixin']/ul/li[3]/ul/li[2]</sucaiguanli>
-        <add>//*[@id='content']/div/div[1]/div/a</add>
-        <addurl>http://s2.checheweike.com/store/index.php?route=weixin/material/insert</addurl>
-        <uploadbtn>ueditor_0</uploadbtn>
-    </weixin>
-    <mendian>
-        <setting>//*[@id='menu-setting']/a</setting>
-        <weiguanwang>//*[@id='menu-setting']/ul/li[2]/a</weiguanwang>
-        <mendianset>//*[@id='menu-setting']/ul/li[2]/ul/li[1]/a</mendianset>
-        <filebtn>uploadimg</filebtn>
-        <chushihua>//*[@id='menu-setting']/ul/li[1]/a</chushihua>
-    </mendian>
-    <menu>
-        <menu-foundation>//*[@id="menu-foundation"]/a</menu-foundation>
-        <service-setting>//*[@id="menu-foundation"]/ul/li[1]/a</service-setting>
-        <service>//*[@id="menu-foundation"]/ul/li[1]/ul/li[2]/a</service>
-        <modify>//*[@id="data-table"]/tbody/tr[1]/td[9]</modify>
-        <service-url>http://s2.checheweike.com/erp/index.php?route=catalog/service</service-url>
-    </menu>
 
-</TestData>
+</Data>

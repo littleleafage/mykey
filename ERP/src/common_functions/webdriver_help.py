@@ -114,7 +114,7 @@ class WebDriverHelp(object):
         :param value: 要给文本框输入的值
         :return:
         '''
-        self.findelement(findby, elmenthod).clear()
+        # self.findelement(findby, elmenthod).clear()
         self.findelement(findby, elmenthod).send_keys(value)
 
     def gettext(self, findby, elmethod):
@@ -179,4 +179,5 @@ class WebDriverHelp(object):
 
     def switoalert(self):
         self.DRIVER.switch_to_alert().accept()
+
 
