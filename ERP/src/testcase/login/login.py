@@ -26,33 +26,10 @@ class TestcaseLogin(unittest.TestCase):
         logindata.append(password)
         logindata.append(loginbtn)
         QT_Operations().login(logindata)
-        # WebDriverHelp().geturl('http://s2.checheweike.com/erp/index.php?route=stock/count/insert')
+        WebDriverHelp().geturl('http://s2.checheweike.com/erp/index.php?route=stock/count/insert')
         time.sleep(1)
-        # WebDriverHelp().selectvalue("byxpath", "//*[@id='content']/div/div[2]/form/div[2]/table/tbody/tr[1]/td[2]/select", u"销售退款")
-        # time.sleep(1)
-    #     //*[@id='dialog-container']/div/div[2]/table/tbody/tr[1]/td[1]
-    #         print x['product_id']
-    # def tearDown(self):
-    #     WebDriverHelp().teardown() #关闭浏览器
-        url1 = 'http://s2.checheweike.com/erp/index.php?route=catalog/product/ajax_gets_with_stock&current_page=1&limit=1000&page=1&page_size=10&status=1&warehouse_id=5'
-        url2 = 'http://s2.checheweike.com/erp/index.php?route=stock/balance/ajax_gets&date=2016-03-08&limit=10&order=ASC&page=1&s_qkf=0&sort=ps.total_quantity&warehouse_ids=5&warehouse_names=%E4%B8%AD%E5%A4%AE%E5%BA%93'
-        data1 = QT_Operations().getstock(url1) #盘点
-        data2 = QT_Operations().getstock(url2) #库存余额
-        length1 = len(data1)
-        length2 = len(data2)
-        for i in range(length1):
-            pd = data1[i]
-            pdid = pd['product_id']
-            pdname = pd['name']
-            pdyue = pd['stock_quantity']
-            for j in range(length2):
-                yue = data2[j]
-                yuid = yue['product_id']
-                yuname = yue['name']
-                yuyu = yue['quantity']
+        WebDriverHelp().selectvalue("byxpath", "//*[@id='content']/div/div[2]/form/div[2]/table/tbody/tr[1]/td[2]/select", u"销售退款")
+        time.sleep(1)
 
-                if pdid == yuid:
-                    if pdyue == yuyu:
-                        break
-                    else:
-                        print pdname,":" ,pdyue, yuname,':',yuyu
+    def tearDown(self):
+        WebDriverHelp().teardown() #关闭浏览器

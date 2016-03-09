@@ -8,9 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-
 global G_WEBDRIVER,G_BROWSERTYPE,DRIVER
-
 
 class WebDriverHelp(object):
     '''
