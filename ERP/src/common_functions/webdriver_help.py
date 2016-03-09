@@ -180,4 +180,8 @@ class WebDriverHelp(object):
     def switoalert(self):
         self.DRIVER.switch_to_alert().accept()
 
+    def doubleclick(self, findby, elemthond):
+        self.findelement(findby, elemthond)
+
+
 

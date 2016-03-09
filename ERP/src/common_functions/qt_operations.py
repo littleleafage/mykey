@@ -3,6 +3,7 @@
 存放具体的操作功能块，比如登录，退出等等
 '''
 import time
+import demjson
 from src.common_functions.webdriver_help import WebDriverHelp
 from src.common_functions.data_operations import DataOperations
 class QT_Operations(object):
@@ -11,9 +12,9 @@ class QT_Operations(object):
         list = []
         for i in range(len(logindata)):
             temp = logindata[i]
-            if temp[2] != "":
+            try:
                 WebDriverHelp().inputvalue(temp[0],temp[1],temp[2])
-            else:
+            except:
                 WebDriverHelp().clickitem(temp[0], temp[1])
             time.sleep(0.5)
 
@@ -38,5 +39,19 @@ class QT_Operations(object):
 
     def uploadimg(self, findby, uploadbtn):
         WebDriverHelp().uploadfile(findby, uploadbtn)
+
+    def getstock(self, url):
+        WebDriverHelp().geturl(url)
+        data = WebDriverHelp().gettext('byxpath', '/html/body')
+        json = demjson.decode(data)
+        result = json['products']
+        # list = []
+        # for i in range(len(result)):
+        #     x = result[i]
+        #     proid = x['product_id']
+        #     quality = x['stock_quantity']
+        #     m = [proid, quality]
+        #     list.append(m)
+        return result
 
 
