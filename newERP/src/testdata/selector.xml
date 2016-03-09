@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ERP>
+    <login name="登录数据">
+        <url></url>
+        <storeid>10054</storeid>
+        <username>yewen</username>
+        <password>ccwk0715</password>
+        <loginbtn></loginbtn>
+    </login>
+
+    <logout name="登出数据"></logout>
+</ERP>
