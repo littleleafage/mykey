@@ -26,22 +26,25 @@ class TestcaseLogin(unittest.TestCase):
         logindata.append(password)
         logindata.append(loginbtn)
         QT_Operations().login(logindata)
-        for m in range(1,11,1):
+        today = time.strftime('%Y-%m-%d', time.localtime(time.time())) #获取当天日期
+        for m in range(1,2,1):
             try:
-                url1 = 'http://s2.checheweike.com/erp/index.php?route=catalog/product/ajax_gets_with_stock&current_page=1&limit=10000&page=1&page_size=10&status=1&warehouse_id=%d' %m
-                url2 = 'http://s2.checheweike.com/erp/index.php?route=stock/balance/ajax_gets&date=2016-03-08&limit=10000&order=ASC&page=1&s_qkf=0&sort=ps.total_quantity&warehouse_ids=%d' %m
+                url1 = 'http://s2.checheweike.com/erp/index.php?route=catalog/product/ajax_gets_with_stock&current_page=1' \
+                       '&limit=10000&page=1&page_size=10&status=1&warehouse_id=%d' %m #盘点数据
+                url2 = 'http://s2.checheweike.com/erp/index.php?route=stock/balance/ajax_gets&date=%s&limit=10000' \
+                       '&order=ASC&page=1&s_qkf=0&sort=ps.total_quantity&warehouse_ids=%d' %(today, m) #库存数据
             except:
                 print '仓库ID：',m,'不存在'
             data1 = QT_Operations().getstock(url1) #盘点
             data2 = QT_Operations().getstock(url2) #库存余额
-            length1 = len(data1)
-            length2 = len(data2)
-            for i in range(length1): #盘点数据
+
+            for i in range(len(data1)): #获取盘点相应数据
                 pd = data1[i]
                 pdid = str(pd['product_id'])
                 pdname = pd['name']
                 pdyue = str(pd['stock_quantity'])
-                for j in range(length2): #库存数据
+
+                for j in range(len(data2)): #库存数据
                     yue = data2[j]
                     yuid = str(yue['product_id'])
                     yuyu = str(yue['quantity'])
@@ -50,7 +53,7 @@ class TestcaseLogin(unittest.TestCase):
                         try:
                             self.assertEqual(pdyue, yuyu)
                         except:
-                            print '仓库ID:', m,'；',pdname,':' ,pdyue,',',yuyu
+                            print '仓库ID:', m,'；',pdname, ',', pdid, ':' ,pdyue,',',yuyu
                     except:
                         pass
 

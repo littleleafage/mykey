@@ -6,6 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 global G_WEBDRIVER,G_BROWSERTYPE,DRIVER
@@ -112,7 +113,7 @@ class WebDriverHelp(object):
         :param value: 要给文本框输入的值
         :return:
         '''
-        # self.findelement(findby, elmenthod).clear()
+        self.findelement(findby, elmenthod).clear()
         self.findelement(findby, elmenthod).send_keys(value)
 
     def gettext(self, findby, elmethod):
@@ -131,6 +132,16 @@ class WebDriverHelp(object):
         @param elmethod：要定位元素的属性值
         '''
         self.findelement(findby, elmethod).click()
+
+    def doubleclick(self, findby, elmethod):
+        '''
+        在定位元素上执行双击事件
+        :param findby:定位方法
+        :param elmethod:定位元素的属性值
+        :return:
+        '''
+        double = self.findelement(findby, elmethod)
+        ActionChains(self.DRIVER).double_click(double).perform()
 
     def uploadfile(self, findby, elmethod):
         '''
@@ -178,8 +189,7 @@ class WebDriverHelp(object):
     def switoalert(self):
         self.DRIVER.switch_to_alert().accept()
 
-    def doubleclick(self, findby, elemthond):
-        self.findelement(findby, elemthond)
+
 
 
 

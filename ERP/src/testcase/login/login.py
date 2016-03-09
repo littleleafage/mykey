@@ -26,10 +26,20 @@ class TestcaseLogin(unittest.TestCase):
         logindata.append(password)
         logindata.append(loginbtn)
         QT_Operations().login(logindata)
-        WebDriverHelp().geturl('http://s2.checheweike.com/erp/index.php?route=stock/count/insert')
-        time.sleep(1)
-        WebDriverHelp().selectvalue("byxpath", "//*[@id='content']/div/div[2]/form/div[2]/table/tbody/tr[1]/td[2]/select", u"销售退款")
-        time.sleep(1)
+        # WebDriverHelp().geturl('http://s2.checheweike.com/erp/index.php?route=stock/count/insert')
+        # time.sleep(1)
+        # WebDriverHelp().selectvalue("byxpath", "//*[@id='content']/div/div[2]/form/div[2]/table/tbody/tr[1]/td[2]/select", u"销售退款")
+        # time.sleep(1)
+
+        WebDriverHelp().geturl('http://s2.checheweike.com/erp/index.php?route=finance/expense/insert')
+        time.sleep(0.5)
+        WebDriverHelp().clickitem('byxpath', '//*[@id="content"]/div/div[2]/form/div[1]/div[1]/div')
+        WebDriverHelp().switoiframe('xubox_iframe')
+        time.sleep(0.5)
+        WebDriverHelp().doubleclick('byxpath', '//*[@id="dialog-container"]/div/div[2]/table/tbody/tr[1]/td[1]')
+        # WebDriverHelp().clickitem('byid', 'tree_3span')
+        # print WebDriverHelp().gettext('byxpath', '//*[@id="dialog-container"]/div/div[2]/table/tbody/tr[1]/td[1]')
+        time.sleep(3)
 
     def tearDown(self):
         WebDriverHelp().teardown() #关闭浏览器
