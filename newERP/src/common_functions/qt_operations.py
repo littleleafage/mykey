@@ -23,10 +23,7 @@ class QT_Operations(object):
     def upload(self, xpath):
         '''
         微信互动>>群发功能>>素材管理，上传图片
-        :param xpath:
-        :param value:
-        :param axpath:
-        :param findby:
+        :param xpath:xpath列
         :return:
         '''
         for m in xpath:
