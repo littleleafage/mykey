@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
 
+
 # driver = webdriver.Chrome()
 # driver.get('http://s2.checheweike.com/erp')
 # driver.find_element_by_name('store_id').send_keys('10054')
@@ -16,7 +17,6 @@ import time
 # list = []
 # for i in ele:
 #     list.append(i.text)
-#
 # for m in list:
 #     print m
 print time.localtime(time.time())

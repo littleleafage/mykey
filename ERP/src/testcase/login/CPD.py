@@ -1,6 +1,7 @@
 #coding=utf-8
 '''
-登录测试
+车品道盘点和库存余额中的数据不一致
+找出不一致的数据
 '''
 import time
 import unittest
@@ -27,7 +28,7 @@ class TestcaseLogin(unittest.TestCase):
         logindata.append(loginbtn)
         QT_Operations().login(logindata)
         today = time.strftime('%Y-%m-%d', time.localtime(time.time())) #获取当天日期
-        for m in range(1,2,1):
+        for m in range(1, 2, 1):
             try:
                 url1 = 'http://s2.checheweike.com/erp/index.php?route=catalog/product/ajax_gets_with_stock&current_page=1' \
                        '&limit=10000&page=1&page_size=10&status=1&warehouse_id=%d' %m #盘点数据
@@ -48,12 +49,13 @@ class TestcaseLogin(unittest.TestCase):
                     yue = data2[j]
                     yuid = str(yue['product_id'])
                     yuyu = str(yue['quantity'])
+                    uc = str(yue['uc'])
                     try:
                         self.assertEqual(pdid, yuid)
                         try:
                             self.assertEqual(pdyue, yuyu)
                         except:
-                            print '仓库ID:', m,'；',pdname, ',', pdid, ':' ,pdyue,',',yuyu
+                            print '仓库ID:', m,'；', pdname, ',', uc, ':' ,pdyue,',',yuyu
                     except:
                         pass
 

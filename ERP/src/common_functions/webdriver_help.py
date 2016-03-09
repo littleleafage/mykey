@@ -8,6 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+import time
 
 global G_WEBDRIVER,G_BROWSERTYPE,DRIVER
 
@@ -116,6 +117,7 @@ class WebDriverHelp(object):
         self.findelement(findby, elmenthod).clear()
         self.findelement(findby, elmenthod).send_keys(value)
 
+
     def gettext(self, findby, elmethod):
         '''
         通过定制定位方法，获取指定元素的文本
@@ -188,6 +190,8 @@ class WebDriverHelp(object):
 
     def switoalert(self):
         self.DRIVER.switch_to_alert().accept()
+
+
 
 
 
