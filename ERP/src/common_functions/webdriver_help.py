@@ -189,7 +189,7 @@ class WebDriverHelp(object):
         self.DRIVER.switch_to.frame(iframe)
 
     def switoalert(self):
-        self.DRIVER.switch_to_alert().accept()
+        self.DRIVER.switch_to.alert
 
 
 
