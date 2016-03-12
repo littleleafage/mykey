@@ -26,27 +26,34 @@ class WebDriverHelp(object):
         :return:
         '''
         global DRIVER
-        if(btype == "open"):
-            if(atype == "chrome"):
-                if(ctype == "local"):
+        if btype == "open":
+            if atype == "chrome":
+                if ctype == "local":
 
                     DRIVER = webdriver.Chrome()
                     #DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.CHROME)
                     DRIVER.maximize_window()
-            elif(atype == "ie"):
-                if(ctype == "local"):
+            elif atype == "ie":
+                if ctype == "local":
                     DRIVER = webdriver.Ie()
                     DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.INTERNETEXPLORER)
                     DRIVER.maximize_window()
-            elif(atype == "firefox"):
-                if(ctype == "local"):
+            elif atype == "firefox":
+                if ctype == "local":
                     DRIVER = webdriver.Firefox()
                     DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                elif ctype == "notlocal":
+                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
+                    DRIVER.maximize_window()
+            elif atype == 'htmlunit':
+                if ctype == "local":
+                    DRIVER = webdriver.HtmlUnitDriver()
+                    DRIVER.maximize_window()
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
                     DRIVER.maximize_window()
         self.DRIVER = DRIVER
@@ -86,13 +93,13 @@ class WebDriverHelp(object):
         :param elmethod:要定位元素的属性值，如：id，name，class name，xpath等
         :return:
         '''
-        if(findby == 'byid'):
+        if findby == 'byid':
             return self.DRIVER.find_element_by_id(elmethod)
-        elif(findby == 'byname'):
+        elif findby == 'byname':
             return self.DRIVER.find_element_by_name(elmethod)
-        elif(findby == 'byclassname'):
+        elif findby == 'byclassname':
             return self.DRIVER.find_element_by_class_name(elmethod)
-        elif(findby == 'byxpath'):
+        elif findby == 'byxpath':
             return self.DRIVER.find_element_by_xpath(elmethod)
 
     def selectvalue(self, findby, select, selectvalue):

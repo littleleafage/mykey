@@ -1,12 +1,11 @@
 #coding=utf-8
 '''
-车品道盘点和库存余额中的数据不一致
+德阳万佳：
+出库单价和库存余额的单价不一致
 找出不一致的数据
 '''
 import time
 import unittest
-import demjson
-from src.common_functions.data_operations import DataOperations
 from src.common_functions.webdriver_help import WebDriverHelp
 from src.common_functions.qt_operations import QT_Operations
 
@@ -16,19 +15,10 @@ class TestcaseLogin(unittest.TestCase):
         WebDriverHelp("open", "chrome", "local").setup() #本地用chrome浏览器打开后台地址
 
     def testcase_login(self):
-        # dataoper = DataOperations("TestCase_QT_Login.xml")
-        # store = ["byname", "store_id", dataoper.read_xml('login', 0, 'storeid')]
-        # username = ["byname", "username", dataoper.read_xml('login', 0, 'username')]
-        # password = ["byname", "password", dataoper.read_xml('login', 0, 'password')]
-        # loginbtn = ['byclassname', 'login-btn']
-        # logindata = []
-        # logindata.append(store)
-        # logindata.append(username)
-        # logindata.append(password)
-        # logindata.append(loginbtn)
+
         QT_Operations().login()
         today = time.strftime('%Y-%m-%d', time.localtime(time.time())) #获取当天日期
-        for m in range(1, 6, 1):
+        for m in range(5, 6, 1):
             try:
                 url1 = 'http://s2.checheweike.com/erp/index.php?route=catalog/product/ajax_gets_with_stock&' \
                        'current_page=1&limit=10000&page=1&page_size=10&status=1&warehouse_id=%d' % m  #盘点数据
@@ -36,7 +26,7 @@ class TestcaseLogin(unittest.TestCase):
                        '&order=ASC&page=1&s_qkf=0&sort=ps.total_quantity&warehouse_ids=%d' % (today, m) #库存数据
             except:
                 print '仓库ID：',m,'不存在'
-            data1 = QT_Operations().getstock(url1) #盘点
+            data1 = QT_Operations().getstock(url1) #其它出库
             data2 = QT_Operations().getstock(url2) #库存余额
 
             for i in range(len(data1)): #获取出库相应数据
@@ -49,7 +39,6 @@ class TestcaseLogin(unittest.TestCase):
                 for j in range(len(data2)): #库存数据
                     yue = data2[j]
                     yuid = str(yue['product_id'])
-                    yuyu = str(yue['quantity'])
                     ucint = round(yue['uc'], 2)
                     uc = str(ucint)
                     try:
@@ -61,6 +50,6 @@ class TestcaseLogin(unittest.TestCase):
                     except:
                         pass
 
-    # def tearDown(self):
-    #     WebDriverHelp().teardown()
+    def tearDown(self):
+        WebDriverHelp().teardown()
 

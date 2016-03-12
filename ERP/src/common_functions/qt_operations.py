@@ -54,13 +54,6 @@ class QT_Operations(object):
         data = WebDriverHelp().gettext('byxpath', '/html/body')
         json = demjson.decode(data)
         result = json['products']
-        # list = []
-        # for i in range(len(result)):
-        #     x = result[i]
-        #     proid = x['product_id']
-        #     quality = x['stock_quantity']
-        #     m = [proid, quality]
-        #     list.append(m)
         return result
 
 
