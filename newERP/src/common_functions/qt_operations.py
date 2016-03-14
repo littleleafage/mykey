@@ -12,7 +12,7 @@ class QT_Operations(object):
         for i in range(len(logindata)):
             temp = logindata[i]
             try:
-                WebDriverHelp().inputvalue(temp[0],temp[1],temp[2])
+                WebDriverHelp().inputvalue(temp[0], temp[1], temp[2])
             except:
                 WebDriverHelp().clickitem(temp[0], temp[1])
             time.sleep(0.5)
@@ -48,4 +48,21 @@ class QT_Operations(object):
         result = json['products']
         return result
 
+    def search(self, orderdata):
+        '''
+        工单列表查询
+        :param orderdata: 元素信息
+        :return:
+        '''
+        length = len(orderdata)
+        for i in range(length-1):
+            temp = orderdata[i]
+            try:
+                WebDriverHelp().inputvalue(temp[0], temp[1], temp[2])  # 输入车牌号
+            except:
+                WebDriverHelp().inputclear(temp[0], temp[1])  # 清除单据时间输入框
+            time.sleep(0.5)
+        btn = orderdata[length-1]
+        WebDriverHelp().clickitem(btn[0], btn[1])  # 查询
+        WebDriverHelp().screenshot('orderlist.png')  # 截取工单列表
 

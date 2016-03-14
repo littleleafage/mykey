@@ -101,16 +101,27 @@ class WebDriverHelp(object):
         select = Select(self.findelement(findby, select))
         select.select_by_visible_text(selectvalue)
 
-    def inputvalue(self, findby, elmenthod, value):
+    def inputclear(self, inputdata):
+        '''
+        清空input输入框
+        :param findby:
+        :param elmethod:
+        :return:
+        '''
+        for i in range(len(inputdata)):
+            temp = inputdata[i]
+            self.findelement(temp[0], temp[1]).clear()
+
+    def inputvalue(self, findby, elmethod, value):
         '''
         在输入框中输入值
         :param findby: 定位方法
-        :param elmenthod: 要定位元素的属性值
+        :param elmethod: 要定位元素的属性值
         :param value: 要给文本框输入的值
         :return:
         '''
-        # self.findelement(findby, elmenthod).clear()
-        self.findelement(findby, elmenthod).send_keys(value)
+        self.inputclear(findby, elmethod)
+        self.findelement(findby, elmethod).send_keys(value)
 
     def gettext(self, findby, elmethod):
         '''

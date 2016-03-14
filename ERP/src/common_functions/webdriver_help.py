@@ -113,7 +113,7 @@ class WebDriverHelp(object):
         select = Select(self.findelement(findby, select))
         select.select_by_visible_text(selectvalue)
 
-    def inputvalue(self, findby, elmenthod, value):
+    def inputvalue(self, findby, elmethod, value):
         '''
         在输入框中输入值
         :param findby: 定位方法
@@ -121,9 +121,11 @@ class WebDriverHelp(object):
         :param value: 要给文本框输入的值
         :return:
         '''
-        self.findelement(findby, elmenthod).clear()
-        self.findelement(findby, elmenthod).send_keys(value)
+        self.findelement(findby, elmethod).clear()
+        self.findelement(findby, elmethod).send_keys(value)
 
+    def getelements(self, elmethod):
+        return self.DRIVER.find_elements_by_xpath(elmethod)
 
     def gettext(self, findby, elmethod):
         '''

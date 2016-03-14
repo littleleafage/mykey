@@ -7,6 +7,21 @@
         <password>ccwk0715</password>
         <loginbtn></loginbtn>
     </login>
+    <orderlist name="工单列表">
+        <car_license></car_license>  <!-- 车牌 -->
+        <mobile></mobile>  <!-- 手机 -->
+        <business_type></business_type>  <!-- 业务类型 -->
+        <receiver></receiver>  <!-- 服务顾问 -->
+        <bill_date_start></bill_date_start>  <!-- 单据开始时间 -->
+        <bill_date_end></bill_date_end>  <!-- 单据结束时间 -->
+        <substore></substore>  <!-- 门店 -->
+        <open_advanced_search></open_advanced_search>  <!-- 高级搜索 -->
+        <no></no>  <!-- 单据编号 -->
+        <stock_status></stock_status>  <!-- 库存状态 -->
+        <is_audited></is_audited>  <!-- 审核状态 -->
+        <search_btn></search_btn>  <!-- 查询按钮 -->
+
+    </orderlist>
 
     <logout name="登出数据"></logout>
 </ERP>
