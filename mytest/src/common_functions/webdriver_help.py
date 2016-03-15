@@ -55,7 +55,7 @@ class WebDriverHelp(object):
         :return:
         '''
         try:
-            url = "http://s2.checheweike.com/erp"
+            url = "http://www.zhihu.com/#signin"
             self.DRIVER.get(url)
 
         except NoSuchElementException:

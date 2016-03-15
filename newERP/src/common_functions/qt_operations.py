@@ -5,7 +5,6 @@
 import time
 import demjson
 from src.common_functions.webdriver_help import WebDriverHelp
-from src.common_functions.data_operations import DataOperations
 class QT_Operations(object):
 
     def login(self, logindata):
@@ -58,9 +57,9 @@ class QT_Operations(object):
         for i in range(length-1):
             temp = orderdata[i]
             try:
-                WebDriverHelp().inputvalue(temp[0], temp[1], temp[2])  # 输入车牌号
+                WebDriverHelp().inputvalue(temp[0], temp[1], temp[2])  # 清空输入框并输入
             except:
-                WebDriverHelp().inputclear(temp[0], temp[1])  # 清除单据时间输入框
+                WebDriverHelp().selectvalue(temp[0], temp[1], temp[2])  # 下拉框输入
             time.sleep(0.5)
         btn = orderdata[length-1]
         WebDriverHelp().clickitem(btn[0], btn[1])  # 查询
