@@ -15,7 +15,7 @@ class DataOperations(object):
         :return:
         '''
         global DOC,CONN
-        DOC = minidom.parse("G:\\webdriver\\ERP\\src\\testData\\" + filename)
+        DOC = minidom.parse("G:\\webdriver\\newERP\\src\\testdata\\" + filename)
 
     def read_xml(self, ftagname, num, stagname):
         '''

@@ -5,9 +5,20 @@
 import time
 import demjson
 from src.common_functions.webdriver_help import WebDriverHelp
+from src.common_functions.file_oper import DataOperations
 class QT_Operations(object):
 
-    def login(self, logindata):
+    def login(self):
+        dataoper = DataOperations('logindata.xml')
+        store = ["byname", "store_id", dataoper.read_xml('login', 0, 'storeid')]
+        username = ["byname", "username", dataoper.read_xml('login', 0, 'username')]
+        password = ["byname", "password", dataoper.read_xml('login', 0, 'password')]
+        loginbtn = ['byclassname', dataoper.read_xml('login', 0, 'loginbtn')]
+        logindata = []
+        logindata.append(store)
+        logindata.append(username)
+        logindata.append(password)
+        logindata.append(loginbtn)
         for i in range(len(logindata)):
             temp = logindata[i]
             try:
@@ -16,7 +27,9 @@ class QT_Operations(object):
                 WebDriverHelp().clickitem(temp[0], temp[1])
             time.sleep(0.5)
 
-    def logout(self, url):
+    def logout(self):
+        dataoper = DataOperations('logindata.xml')
+        url = dataoper.read_xml('logout', 0, 'logouturl')
         WebDriverHelp().geturl(url)
 
     def upload(self, xpath):
@@ -57,11 +70,15 @@ class QT_Operations(object):
         for i in range(length-1):
             temp = orderdata[i]
             try:
-                WebDriverHelp().inputvalue(temp[0], temp[1], temp[2])  # 清空输入框并输入
+                try:
+                    WebDriverHelp().inputvalue(temp[0], temp[1], temp[2])  # 清空输入框并输入
+                except:
+                    WebDriverHelp().selectvalue(temp[0], temp[1], temp[2])  # 下拉框输入
+                btn = orderdata[length-1]
+                WebDriverHelp().clickitem(btn[0], btn[1])  # 查询
+                time.sleep(0.5)
+                imgname = 'searchresult%d.png' % i
+                WebDriverHelp().screenshot(0, imgname)
             except:
-                WebDriverHelp().selectvalue(temp[0], temp[1], temp[2])  # 下拉框输入
-            time.sleep(0.5)
-        btn = orderdata[length-1]
-        WebDriverHelp().clickitem(btn[0], btn[1])  # 查询
-        WebDriverHelp().screenshot('orderlist.png')  # 截取工单列表
+                WebDriverHelp().screenshot(1, 'orderlist.png')  # 截取工单列表
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ERP>
+    <login name="登录数据">
+        <url></url>
+        <storeid>10008</storeid>
+        <username>admin</username>
+        <password>123456</password>
+        <loginbtn>login-btn</loginbtn>
+    </login>
+
+    <logout name="登出数据">
+        <logouturl>http://192.168.1.111/ccwk/erp/index.php?route=common/logout</logouturl>
+    </logout>
+</ERP>

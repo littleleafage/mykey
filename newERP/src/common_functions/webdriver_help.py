@@ -49,13 +49,13 @@ class WebDriverHelp(object):
                     DRIVER.maximize_window()
         self.DRIVER = DRIVER
 
-    def setup(self, url):
+    def setup(self):
         '''
         打开url
         :return:
         '''
         try:
-            self.DRIVER.get(url)
+            self.DRIVER.get('http://192.168.1.111/ccwk/store/index.php?route=common/login')
         except NoSuchElementException:
             print "地址出错"
 
@@ -120,7 +120,7 @@ class WebDriverHelp(object):
         :param value: 要给文本框输入的值
         :return:
         '''
-        self.inputclear(findby, elmethod)
+        # self.inputclear(findby, elmethod)
         self.findelement(findby, elmethod).send_keys(value)
 
     def gettext(self, findby, elmethod):
@@ -151,13 +151,16 @@ class WebDriverHelp(object):
         # self.DRIVER.execute_script(js)
         self.findelement(findby, elmethod).send_keys(filepath)
 
-    def screenshot(self, imgname):
+    def screenshot(self, type, imgfile):
         '''
         截图
         :param imgname:图片文件名
         :return:
         '''
-        self.DRIVER.save_screenshot("../error/" + imgname)
+        if type == 0:  # 结果截图
+            self.DRIVER.save_screenshot("../screenshot/result/" + imgfile)
+        elif type == 1:  # 错误截图
+            self.DRIVER.save_screenshot("../screenshot/error/" + imgfile)
 
     def isexist(self, findby, elmethod):
         '''

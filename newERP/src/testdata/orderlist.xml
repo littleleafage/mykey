@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ERP>
+    <login name="登录数据">
+        <url></url>
+        <storeid>10008</storeid>
+        <username>admin</username>
+        <password>123456</password>
+        <loginbtn>login-btn</loginbtn>
+    </login>
+    <orderlist name="工单列表">
+        <open_advanced_search>//*[@id="content"]/div/div[2]/div[3]/a</open_advanced_search>  <!-- 高级搜索 -->
+        <car_license>//*[@id="content"]/div/div[2]/div[1]/form/ul[1]/li[1]/div[2]/input</car_license>  <!-- 车牌定位 -->
+        <license>川Y65699</license>  <!-- 车牌号 -->
+        <mobile>//*[@id="content"]/div/div[2]/div[1]/form/ul[1]/li[2]/div[2]/input</mobile>  <!-- 手机 -->
+        <business_type>//*[@id="content"]/div/div[2]/div[1]/form/ul[1]/li[3]/div[2]/select</business_type>  <!-- 业务类型 -->
+        <receiver>//*[@id="content"]/div/div[2]/div[1]/form/ul[2]/li[1]/div[2]/select</receiver>  <!-- 服务顾问 -->
+        <bill_date_start>//*[@id="content"]/div/div[2]/div[1]/form/ul[2]/li[2]/div[2]/div[1]/input</bill_date_start>  <!-- 单据开始时间 -->
+        <bill_date_end>//*[@id="content"]/div/div[2]/div[1]/form/ul[2]/li[2]/div[2]/div[3]/input//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[1]/div[2]/input</bill_date_end>  <!-- 单据结束时间 -->
+        <no>//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[1]/div[2]/input</no>  <!-- 单据编号 -->
+        <stock_status>//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[2]/div[2]/select</stock_status>  <!-- 库存状态 -->
+        <is_audited>//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[3]/div[2]/select</is_audited>  <!-- 审核状态 -->
+        <substore>//*[@id="content"]/div/div[2]/div[1]/form/ul[3]/li/div[2]/select</substore>  <!-- 门店 -->
+        <search_btn>search-btn</search_btn>  <!-- 查询按钮 -->
+
+    </orderlist>
+
+    <logout name="登出数据"></logout>
+</ERP>

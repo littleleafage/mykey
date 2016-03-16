@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2016-02-26 14:45:48</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:47.456000</p>
-<p class='attribute'><strong>Status:</strong> Pass 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2016-03-16 14:24:40</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:12.540000</p>
+<p class='attribute'><strong>Status:</strong> Error 2</p>
 
 <p class='description'>报告详情</p>
 </div>
@@ -221,45 +221,85 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>src.testcase.login.login.TestcaseLogin</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testcase_login</div></td>
-    <td colspan='5' align='center'>pass</td>
-</tr>
-
-<tr class='passClass'>
-    <td>src.testcase.TestCase_Upload.uploadfile.TestCaseFile</td>
-    <td>1</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
-</tr>
-
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>testcase_file</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>testcase_login</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
 
-    <div id='div_pt2.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt2.1: ä¸ä¼ æå
+ft1.1: Traceback (most recent call last):
+  File "G:\webdriver\ERP\src\testcase\login\login.py", line 19, in testcase_login
+    QT_Operations().login()
+  File "G:\webdriver\ERP\src\common_functions\qt_operations.py", line 12, in login
+    dataoper = DataOperations("TestCase_QT_Login.xml")
+  File "G:\webdriver\ERP\src\common_functions\data_operations.py", line 18, in __init__
+    DOC = minidom.parse("../../testData/" + filename)
+  File "C:\Python27\lib\xml\dom\minidom.py", line 1911, in parse
+    return expatbuilder.parse(file)
+  File "C:\Python27\lib\xml\dom\expatbuilder.py", line 922, in parse
+    fp = open(file, 'rb')
+IOError: [Errno 2] No such file or directory: '../../testData/TestCase_QT_Login.xml'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>src.testcase.TestCase_Upload.uploadfile.TestCaseFile</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+</tr>
+
+<tr id='ft2.1' class='none'>
+    <td class='errorCase'><div class='testcase'>testcase_file</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        error</a>
+
+    <div id='div_ft2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft2.1: Traceback (most recent call last):
+  File "G:\webdriver\ERP\src\testcase\TestCase_Upload\uploadfile.py", line 18, in testcase_file
+    dataoper = DataOperations("TestCase_QT_Login.xml")
+  File "G:\webdriver\ERP\src\common_functions\data_operations.py", line 18, in __init__
+    DOC = minidom.parse("../../testData/" + filename)
+  File "C:\Python27\lib\xml\dom\minidom.py", line 1911, in parse
+    return expatbuilder.parse(file)
+  File "C:\Python27\lib\xml\dom\expatbuilder.py", line 922, in parse
+    fp = open(file, 'rb')
+IOError: [Errno 2] No such file or directory: '../../testData/TestCase_QT_Login.xml'
 
 
         </pre>
@@ -272,9 +312,9 @@ pt2.1: ä¸ä¼ æå
 <tr id='total_row'>
     <td>Total</td>
     <td>2</td>
+    <td>0</td>
+    <td>0</td>
     <td>2</td>
-    <td>0</td>
-    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
