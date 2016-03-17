@@ -4,9 +4,8 @@
 '''
 from xml.dom import minidom
 
-#global DOC,CONN
 
-class DataOperations(object):
+class FileOpera(object):
 
     def __init__(self, filename):
         '''

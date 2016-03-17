@@ -24,27 +24,26 @@ class WebDriverHelp(object):
         :return:
         '''
         global DRIVER
-        if(btype == "open"):
-            if(atype == "chrome"):
-                if(ctype == "local"):
-
+        if btype == "open":
+            if atype == "chrome":
+                if ctype == "local":
                     DRIVER = webdriver.Chrome()
-                    #DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                    # DRIVER.maximize_window()
+                elif ctype == "remote":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.CHROME)
                     DRIVER.maximize_window()
-            elif(atype == "ie"):
-                if(ctype == "local"):
+            elif atype == "ie":
+                if ctype == "local":
                     DRIVER = webdriver.Ie()
                     DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                elif ctype == "remote":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.INTERNETEXPLORER)
                     DRIVER.maximize_window()
-            elif(atype == "firefox"):
-                if(ctype == "local"):
+            elif atype == "firefox":
+                if ctype == "local":
                     DRIVER = webdriver.Firefox()
                     DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                elif ctype == "remote":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
                     DRIVER.maximize_window()
         self.DRIVER = DRIVER
@@ -74,45 +73,45 @@ class WebDriverHelp(object):
         '''
         self.DRIVER.get(url)
 
-    def findelement(self, findby, elmethod):
+    def find_element(self, findby, elmethod):
         '''
         定位元素
         :param findby:定位方法，如：byid，byname，byclassname等
         :param elmethod:要定位元素的属性值，如：id，name，class name，xpath等
         :return:
         '''
-        if(findby == 'byid'):
+        if findby == 'id':
             return self.DRIVER.find_element_by_id(elmethod)
-        elif(findby == 'byname'):
+        elif findby == 'name':
             return self.DRIVER.find_element_by_name(elmethod)
-        elif(findby == 'byclassname'):
+        elif findby == 'class_name':
             return self.DRIVER.find_element_by_class_name(elmethod)
-        elif(findby == 'byxpath'):
+        elif findby == 'xpath':
             return self.DRIVER.find_element_by_xpath(elmethod)
 
-    def selectvalue(self, findby, select, selectvalue):
+    def select_value(self, findby, select, value):
         '''
         从下拉框中选择指定的项目
         :param findby: 定位方法
         :param select: 要执行选择操作的下拉框句柄
-        :param selectvalue: 下拉框中要选择项的文本
+        :param value: 下拉框中要选择项的文本
         :return:
         '''
-        select = Select(self.findelement(findby, select))
-        select.select_by_visible_text(selectvalue)
+        select = Select(self.find_element(findby, select))
+        select.select_by_visible_text(value)
 
-    def inputclear(self, inputdata):
+    def input_clear(self, input_data):
         '''
         清空input输入框
-        :param findby:
-        :param elmethod:
+        :param input_data:
         :return:
         '''
-        for i in range(len(inputdata)):
-            temp = inputdata[i]
-            self.findelement(temp[0], temp[1]).clear()
+        self.find_element('xpath', input_data).clear()
+        # for i in range(len(input_data)):
+        #     temp = input_data[i]
+        #     self.find_element(temp[0], temp[1]).clear()
 
-    def inputvalue(self, findby, elmethod, value):
+    def input_value(self, findby, elmethod, value):
         '''
         在输入框中输入值
         :param findby: 定位方法
@@ -120,49 +119,51 @@ class WebDriverHelp(object):
         :param value: 要给文本框输入的值
         :return:
         '''
-        # self.inputclear(findby, elmethod)
-        self.findelement(findby, elmethod).send_keys(value)
+        inpu = self.find_element(findby, elmethod)
+        inpu.clear()
+        inpu.send_keys(value)
 
-    def gettext(self, findby, elmethod):
+    def get_text(self, findby, elmethod):
         '''
         获取指定元素的文本
         @param findby：定位方法
         @param elmethod：要定位元素的属性值
         @return：返回获取到的元素文本
         '''
-        return self.findelement(findby, elmethod).text
+        return self.find_element(findby, elmethod).text
 
-    def clickitem(self, findby, elmethod):
+    def click_item(self, findby, elmethod):
         '''
         在对应的项目上执行单击操作
         @param findby：定位方法
         @param elmethod：要定位元素的属性值
         '''
-        self.findelement(findby, elmethod).click()
+        self.find_element(findby, elmethod).click()
 
-    def uploadfile(self, findby, elmethod, filepath):
+    def upload_file(self, findby, elmethod, path):
         '''
         上传文件
         :param findby:定位方法
         :param elmethod:定位元素的属性值
-        :param filepath:文件路径
+        :param path:文件路径
         :return:
         '''
         # self.DRIVER.execute_script(js)
-        self.findelement(findby, elmethod).send_keys(filepath)
+        self.find_element(findby, elmethod).send_keys(path)
 
-    def screenshot(self, type, imgfile):
+    def screen_shot(self, file_type, file_path):
         '''
         截图
-        :param imgname:图片文件名
+        :param file_type:截图类型，0为结果截图，1为错误截图
+        :param file_path:图片文件名
         :return:
         '''
-        if type == 0:  # 结果截图
-            self.DRIVER.save_screenshot("../screenshot/result/" + imgfile)
-        elif type == 1:  # 错误截图
-            self.DRIVER.save_screenshot("../screenshot/error/" + imgfile)
+        if file_type == 0:
+            self.DRIVER.save_screenshot("../screenshot/result/" + file_path)
+        elif file_type == 1:
+            self.DRIVER.save_screenshot("../screenshot/error/" + file_path)
 
-    def isexist(self, findby, elmethod):
+    def is_exist(self, findby, elmethod):
         '''
         判断元素是否存在
         :param findby:定位方法
@@ -170,7 +171,7 @@ class WebDriverHelp(object):
         :return:
         '''
         try:
-            self.findelement(findby, elmethod)
+            self.find_element(findby, elmethod)
             return True
         except:
             return False
@@ -182,7 +183,7 @@ class WebDriverHelp(object):
     #     :param elmethod: 定位元素的属性值
     #     :return:
     #     '''
-    #     iframe = self.findelement(findby, elmethod)
+    #     iframe = self.find_element(findby, elmethod)
     #     self.DRIVER.switch_to.frame(iframe)
 
 

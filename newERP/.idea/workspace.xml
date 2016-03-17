@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12478f62-0759-48dd-a75c-d6892e0bfdee" name="Default" comment="" />
+    <list default="true" id="12478f62-0759-48dd-a75c-d6892e0bfdee" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/login.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/screenshot/result/searchresult0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/screenshot/result/searchresult1.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERP/test.py" afterPath="$PROJECT_DIR$/../ERP/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/file_oper.py" afterPath="$PROJECT_DIR$/src/common_functions/file_oper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/qt_operations.py" afterPath="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/test_search.py" afterPath="$PROJECT_DIR$/src/testcase/test_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testall.py" afterPath="$PROJECT_DIR$/testall.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/common/__init__.py" afterPath="$PROJECT_DIR$/src/common_data/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/testdata/logindata.xml" afterPath="$PROJECT_DIR$/src/testdata/login_data.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/testdata/orderlist.xml" afterPath="$PROJECT_DIR$/src/testdata/order_list.xml" />
+    </list>
     <ignored path="newERP.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,59 +35,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webdriver_help.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+      <file leaf-file-name="test_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="162" column="72" selection-start-line="162" selection-start-column="72" selection-end-line="162" selection-end-column="72" />
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
-                <element signature="e#14#29#1" expanded="false" />
-                <element signature="e#492#685#1" expanded="false" />
-                <element signature="e#2280#2353#0" expanded="false" />
-                <element signature="e#2390#2494#0" expanded="false" />
-                <element signature="e#3167#3325#1" expanded="false" />
-                <element signature="e#3481#3707#0" expanded="false" />
-                <element signature="e#4067#4243#0" expanded="false" />
-                <element signature="e#4296#4445#0" expanded="false" />
-                <element signature="e#4509#4747#0" expanded="false" />
-                <element signature="e#5132#5646#0" expanded="false" />
+                <element signature="e#27#38#0" expanded="true" />
+                <element signature="e#289#337#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qt_operations.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
+      <file leaf-file-name="order_list.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71746576">
-              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-              <folding>
-                <element signature="e#43#54#0" expanded="true" />
-                <element signature="e#1254#1558#0" expanded="false" />
-                <element signature="e#1612#1657#0" expanded="false" />
-                <element signature="e#1696#1967#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logindata.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testdata/logindata.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.088235">
-              <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+            <state vertical-scroll-proportion="-7.352941">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
+      <file leaf-file-name="order_list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common_data/order_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.4880546">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
               <folding>
-                <element signature="e#27#38#0" expanded="true" />
+                <element signature="e#14#31#1" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -88,11 +79,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/testdata/selector.xml" />
-        <option value="$PROJECT_DIR$/testall.py" />
         <option value="$PROJECT_DIR$/src/testcase/oderlist.py" />
         <option value="$PROJECT_DIR$/src/testcase/orderlist.py" />
         <option value="$PROJECT_DIR$/src/common/logout.py" />
@@ -101,28 +94,38 @@
         <option value="$PROJECT_DIR$/src/testcase/__init__.py" />
         <option value="$PROJECT_DIR$/src/common_functions/data_operations.py" />
         <option value="$PROJECT_DIR$/src/testdata/testdata.xml" />
-        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
         <option value="$PROJECT_DIR$/src/testdata/elmethod.xml" />
-        <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
-        <option value="$PROJECT_DIR$/src/testcase/test_search.py" />
         <option value="$PROJECT_DIR$/src/testdata/logindata.xml" />
+        <option value="$PROJECT_DIR$/src/common/orderlist.py" />
+        <option value="$PROJECT_DIR$/src/testdata/orderlist.xml" />
+        <option value="$PROJECT_DIR$/src/testdata/login_data.xml" />
+        <option value="$PROJECT_DIR$/src/common/order_list.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/file_oper.py" />
+        <option value="$PROJECT_DIR$/src/testcase/test_login.py" />
+        <option value="$PROJECT_DIR$/src/common_data/login.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
+        <option value="$PROJECT_DIR$/testall.py" />
+        <option value="$PROJECT_DIR$/src/common_data/order_list.py" />
+        <option value="$PROJECT_DIR$/src/testcase/test_search.py" />
+        <option value="$PROJECT_DIR$/src/testdata/order_list.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
-    <option name="y" value="111" />
+    <option name="x" value="72" />
+    <option name="y" value="26" />
     <option name="width" value="1465" />
-    <option name="height" value="912" />
+    <option name="height" value="748" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -140,7 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,53 +208,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="screenshot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newERP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newERP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="screenshot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newERP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newERP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="common_functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common_data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,52 +500,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 13h 38m 08s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 15h 40m 39s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 13h 39m 39s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 15h 42m 12s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 13h 40m 30s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 15h 44m 44s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 13h 40m 54s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 15h 45m 49s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 13h 41m 35s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 15h 48m 56s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 13h 43m 59s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 20h 39m 33s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 13h 59m 56s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 20h 40m 31s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 14h 04m 01s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 20h 41m 26s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 14h 17m 31s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 20h 42m 15s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.16 at 14h 18m 19s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.17 at 20h 45m 01s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="111" width="1465" height="912" extended-state="1" />
+    <frame x="72" y="26" width="1465" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13665031" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13594954" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21309371" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22341858" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30680358" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08943089" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38510913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27599487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -586,7 +567,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -598,29 +579,12 @@
           <folding>
             <element signature="e#14#29#1" expanded="false" />
             <element signature="e#492#685#1" expanded="false" />
-            <element signature="e#2280#2353#0" expanded="false" />
-            <element signature="e#2390#2494#0" expanded="false" />
-            <element signature="e#3167#3325#1" expanded="false" />
-            <element signature="e#3481#3707#0" expanded="false" />
-            <element signature="e#4067#4243#0" expanded="false" />
-            <element signature="e#4296#4445#0" expanded="false" />
-            <element signature="e#4509#4747#0" expanded="false" />
-            <element signature="e#5132#5646#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#54#0" expanded="true" />
-            <element signature="e#1079#1215#0" expanded="false" />
-            <element signature="e#1254#1558#0" expanded="false" />
-            <element signature="e#1612#1657#0" expanded="false" />
-            <element signature="e#1696#1967#0" expanded="false" />
-            <element signature="e#2010#2755#0" expanded="false" />
+            <element signature="e#2264#2337#0" expanded="false" />
+            <element signature="e#3136#3288#1" expanded="false" />
+            <element signature="e#3441#3710#0" expanded="false" />
+            <element signature="e#4070#4247#0" expanded="false" />
+            <element signature="e#4512#4743#0" expanded="false" />
+            <element signature="e#5181#5697#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -632,19 +596,47 @@
           <folding>
             <element signature="e#14#29#1" expanded="false" />
             <element signature="e#492#685#1" expanded="false" />
-            <element signature="e#2280#2353#0" expanded="false" />
-            <element signature="e#2390#2494#0" expanded="false" />
-            <element signature="e#3167#3325#1" expanded="false" />
-            <element signature="e#3481#3707#0" expanded="false" />
-            <element signature="e#4067#4243#0" expanded="false" />
-            <element signature="e#4296#4445#0" expanded="false" />
-            <element signature="e#4509#4747#0" expanded="false" />
-            <element signature="e#5132#5646#0" expanded="false" />
+            <element signature="e#2264#2337#0" expanded="false" />
+            <element signature="e#3136#3288#1" expanded="false" />
+            <element signature="e#3441#3710#0" expanded="false" />
+            <element signature="e#4070#4247#0" expanded="false" />
+            <element signature="e#4512#4743#0" expanded="false" />
+            <element signature="e#5181#5697#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/orderlist.xml">
+    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+            <element signature="e#1171#1477#0" expanded="false" />
+            <element signature="e#1531#1577#0" expanded="false" />
+            <element signature="e#1616#1888#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#29#1" expanded="false" />
+            <element signature="e#492#685#1" expanded="false" />
+            <element signature="e#2264#2337#0" expanded="false" />
+            <element signature="e#3136#3288#1" expanded="false" />
+            <element signature="e#3441#3710#0" expanded="false" />
+            <element signature="e#4070#4247#0" expanded="false" />
+            <element signature="e#4512#4743#0" expanded="false" />
+            <element signature="e#5181#5697#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
@@ -658,11 +650,9 @@
           <caret line="17" column="27" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="e#43#54#0" expanded="true" />
-            <element signature="e#1079#1215#0" expanded="false" />
-            <element signature="e#1254#1558#0" expanded="false" />
-            <element signature="e#1612#1657#0" expanded="false" />
-            <element signature="e#1696#1967#0" expanded="false" />
-            <element signature="e#2010#2755#0" expanded="false" />
+            <element signature="e#1171#1477#0" expanded="false" />
+            <element signature="e#1531#1577#0" expanded="false" />
+            <element signature="e#1616#1888#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -674,19 +664,17 @@
           <folding>
             <element signature="e#14#29#1" expanded="false" />
             <element signature="e#492#685#1" expanded="false" />
-            <element signature="e#2280#2353#0" expanded="false" />
-            <element signature="e#2390#2494#0" expanded="false" />
-            <element signature="e#3167#3325#1" expanded="false" />
-            <element signature="e#3481#3707#0" expanded="false" />
-            <element signature="e#4067#4243#0" expanded="false" />
-            <element signature="e#4296#4445#0" expanded="false" />
-            <element signature="e#4509#4747#0" expanded="false" />
-            <element signature="e#5132#5646#0" expanded="false" />
+            <element signature="e#2264#2337#0" expanded="false" />
+            <element signature="e#3136#3288#1" expanded="false" />
+            <element signature="e#3441#3710#0" expanded="false" />
+            <element signature="e#4070#4247#0" expanded="false" />
+            <element signature="e#4512#4743#0" expanded="false" />
+            <element signature="e#5181#5697#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/orderlist.xml">
+    <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -700,27 +688,33 @@
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#43#54#0" expanded="true" />
-            <element signature="e#1079#1215#0" expanded="false" />
-            <element signature="e#1254#1558#0" expanded="false" />
-            <element signature="e#1612#1657#0" expanded="false" />
-            <element signature="e#1696#1967#0" expanded="false" />
-            <element signature="e#2010#2755#0" expanded="false" />
+            <element signature="e#1171#1477#0" expanded="false" />
+            <element signature="e#1531#1577#0" expanded="false" />
+            <element signature="e#1616#1888#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/login.py">
+    <entry file="file://C:/Python27/Lib/xml/dom/expatbuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05387931">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.29158878">
+          <caret line="333" column="0" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/file_oper.py">
+    <entry file="file://C:/Python27/Lib/xml/dom/minidom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4553734">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.29158878">
+          <caret line="298" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_data/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -735,16 +729,72 @@
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testall.py">
+    <entry file="file://C:/Python27/Lib/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.4728972">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51962614">
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271027">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89345795">
+          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271027">
+          <caret line="1114" column="0" selection-start-line="1114" selection-start-column="0" selection-end-line="1114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/urlparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61308414">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4504673">
+          <caret line="424" column="0" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/httplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2635514">
+          <caret line="984" column="0" selection-start-line="984" selection-start-column="0" selection-end-line="984" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -752,62 +802,98 @@
     <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="72" selection-start-line="162" selection-start-column="72" selection-end-line="162" selection-end-column="72" />
+          <caret line="163" column="50" selection-start-line="163" selection-start-column="50" selection-end-line="163" selection-end-column="50" />
           <folding>
             <element signature="e#14#29#1" expanded="false" />
             <element signature="e#492#685#1" expanded="false" />
-            <element signature="e#2280#2353#0" expanded="false" />
-            <element signature="e#2390#2494#0" expanded="false" />
-            <element signature="e#3167#3325#1" expanded="false" />
-            <element signature="e#3481#3707#0" expanded="false" />
-            <element signature="e#4067#4243#0" expanded="false" />
-            <element signature="e#4296#4445#0" expanded="false" />
-            <element signature="e#4509#4747#0" expanded="false" />
-            <element signature="e#5132#5646#0" expanded="false" />
+            <element signature="e#2015#2230#0" expanded="false" />
+            <element signature="e#2264#2337#0" expanded="false" />
+            <element signature="e#2374#2478#0" expanded="false" />
+            <element signature="e#3136#3392#0" expanded="false" />
+            <element signature="e#4070#4247#0" expanded="false" />
+            <element signature="e#4512#4743#0" expanded="false" />
+            <element signature="e#5181#5697#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screenshot/result/searchresult1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/orderlist.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
+    <entry file="file://$PROJECT_DIR$/testall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="e#27#38#0" expanded="true" />
+            <element signature="e#289#337#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/logindata.xml">
+    <entry file="file://$PROJECT_DIR$/src/common_functions/file_oper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.088235">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71746576">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
           <folding>
             <element signature="e#43#54#0" expanded="true" />
-            <element signature="e#1254#1558#0" expanded="false" />
-            <element signature="e#1612#1657#0" expanded="false" />
-            <element signature="e#1696#1967#0" expanded="false" />
+            <element signature="e#1171#1477#0" expanded="false" />
+            <element signature="e#1531#1577#0" expanded="false" />
+            <element signature="e#1616#1888#0" expanded="false" />
+            <element signature="e#1926#2671#0" expanded="false" />
+            <element signature="e#1926#2004#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/login_data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9411764">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#27#38#0" expanded="true" />
+            <element signature="e#289#337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.352941">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_data/order_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4880546">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+          <folding>
+            <element signature="e#14#31#1" expanded="false" />
           </folding>
         </state>
       </provider>

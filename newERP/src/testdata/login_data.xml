@@ -2,13 +2,13 @@
 <ERP>
     <login name="登录数据">
         <url></url>
-        <storeid>10008</storeid>
+        <store_id>10008</store_id>
         <username>admin</username>
         <password>123456</password>
-        <loginbtn>login-btn</loginbtn>
+        <login_btn>login-btn</login_btn>
     </login>
 
     <logout name="登出数据">
-        <logouturl>http://192.168.1.111/ccwk/erp/index.php?route=common/logout</logouturl>
+        <logout_url>http://192.168.1.111/ccwk/erp/index.php?route=common/logout</logout_url>
     </logout>
 </ERP>
