@@ -1,8 +1,9 @@
-#coding=utf-8
+# -*- coding: utf-8 -*-
 '''
 对测试数据进行读取操作
 '''
 from xml.dom import minidom
+from xml.etree import ElementTree as ET
 
 
 class FileOpera(object):
@@ -14,29 +15,28 @@ class FileOpera(object):
         :return:
         '''
         global DOC,CONN
-        DOC = minidom.parse("G:\\webdriver\\newERP\\src\\testdata\\" + filename)
+        DOC = ET.parse("G:\\webdriver\\newERP\\src\\testdata\\" + filename)
 
-    def read_xml(self, ftagname, num, stagname):
+    def read_xml(self, ftagname):
         '''
         从指定的文件中读取指定节点的值
-        :param ftagname: 起始节点的名称
-        :param num: 取与起始节点相同的第num个节点
-        :param stagname:起始节点下的二级节点
-        :return:返回二级节点的值
+        :param ftagname: 节点的路径，如：login/username
+        :return:返回节点的值
         '''
-        root = DOC.documentElement
-        message = root.getElementsByTagName(ftagname)[num]
-        return message.getElementsByTagName(stagname)[0].childNodes[0].nodeValue
+        path = './' + ftagname
+        root = DOC.findall(path)
+        for child in root:
+            return child.text
 
-    def readxml_attribute(self, ftagname, num, stagname,attributeName):
-        '''
-        从指定的文件中读取指定节点的属性
-        :param ftagname: 起始节点的名称
-        :param num: 取与起始节点相同的第num个节点
-        :param stagname:起始节点下的二级节点
-        :param attributeName:二级节点的属性名
-        :return:返回二级节点的属性
-        '''
-        root = DOC.documentElement
-        message = root.getElementsByTagName(ftagname)[num]
-        return message.getElementsByTagName(stagname)[0].getAttribute(attributeName)
+    def readxml_length(self, ftagname):
+        # root = DOC.documentElement
+        # message = root.getElementsByTagName(ftagname)[num]
+        # return message.childNodes
+        path = './' + ftagname
+        root = DOC.findall(path)
+        length = ''
+        for child in root:
+            length = len(child.getchildren())
+
+        return length
+

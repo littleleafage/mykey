@@ -18,7 +18,7 @@
     <list_data name="工单数据">
         <car_license>川FHU666</car_license>
         <company> </company>
-        <business_type> </business_type>
+        <business_type>全部</business_type>
         <receiver>唐小军</receiver>
         <bill_date_start>20160316</bill_date_start>
         <bill_date_end>20160316</bill_date_end>

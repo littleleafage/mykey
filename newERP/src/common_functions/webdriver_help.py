@@ -1,12 +1,10 @@
-#coding=utf-8
+# -*- coding: utf-8 -*-
 '''
 存放公用的方法
 '''
 from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 
 global G_WEBDRIVER,G_BROWSERTYPE,DRIVER
 
@@ -28,22 +26,29 @@ class WebDriverHelp(object):
             if atype == "chrome":
                 if ctype == "local":
                     DRIVER = webdriver.Chrome()
-                    # DRIVER.maximize_window()
-                elif ctype == "remote":
+                    #DRIVER.maximize_window()
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.CHROME)
                     DRIVER.maximize_window()
             elif atype == "ie":
                 if ctype == "local":
                     DRIVER = webdriver.Ie()
                     DRIVER.maximize_window()
-                elif ctype == "remote":
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.INTERNETEXPLORER)
                     DRIVER.maximize_window()
             elif atype == "firefox":
                 if ctype == "local":
                     DRIVER = webdriver.Firefox()
                     DRIVER.maximize_window()
-                elif ctype == "remote":
+                elif ctype == "notlocal":
+                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
+                    DRIVER.maximize_window()
+            elif atype == 'htmlunit':
+                if ctype == "local":
+                    DRIVER = webdriver.HtmlUnitDriver()
+                    DRIVER.maximize_window()
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
                     DRIVER.maximize_window()
         self.DRIVER = DRIVER
@@ -73,118 +78,113 @@ class WebDriverHelp(object):
         '''
         self.DRIVER.get(url)
 
-    def find_element(self, findby, elmethod):
+    def find_element(self, how, what):
         '''
         定位元素
-        :param findby:定位方法，如：byid，byname，byclassname等
-        :param elmethod:要定位元素的属性值，如：id，name，class name，xpath等
+        :param how:定位方法，如：byid，byname，byclassname等
+        :param what:要定位元素的属性值，如：id，name，class name，xpath等
         :return:
         '''
-        if findby == 'id':
-            return self.DRIVER.find_element_by_id(elmethod)
-        elif findby == 'name':
-            return self.DRIVER.find_element_by_name(elmethod)
-        elif findby == 'class_name':
-            return self.DRIVER.find_element_by_class_name(elmethod)
-        elif findby == 'xpath':
-            return self.DRIVER.find_element_by_xpath(elmethod)
+        if how == 'id':
+            return self.DRIVER.find_element_by_id(what)
+        elif how == 'name':
+            return self.DRIVER.find_element_by_name(what)
+        elif how == 'class_name':
+            return self.DRIVER.find_element_by_class_name(what)
+        elif how == 'xpath':
+            return self.DRIVER.find_element_by_xpath(what)
+        elif how == 'link_text':
+            return self.DRIVER.find_element_by_link_text(what)
 
-    def select_value(self, findby, select, value):
+    def select_value(self, how, what, value):
         '''
         从下拉框中选择指定的项目
-        :param findby: 定位方法
-        :param select: 要执行选择操作的下拉框句柄
+        :param how: 定位方法
+        :param what: 要执行选择操作的下拉框句柄
         :param value: 下拉框中要选择项的文本
         :return:
         '''
-        select = Select(self.find_element(findby, select))
+        select = Select(self.find_element(how, what))
         select.select_by_visible_text(value)
 
-    def input_clear(self, input_data):
+    def input_clear(self, value):
         '''
         清空input输入框
-        :param input_data:
+        :param value:
         :return:
         '''
-        self.find_element('xpath', input_data).clear()
-        # for i in range(len(input_data)):
+        self.find_element('xpath', value).clear()
+        # for i in range(len(value)):
         #     temp = input_data[i]
         #     self.find_element(temp[0], temp[1]).clear()
 
-    def input_value(self, findby, elmethod, value):
+    def input_value(self, how, what, value):
         '''
         在输入框中输入值
-        :param findby: 定位方法
-        :param elmethod: 要定位元素的属性值
+        :param how: 定位方法
+        :param what: 要定位元素的属性值
         :param value: 要给文本框输入的值
         :return:
         '''
-        inpu = self.find_element(findby, elmethod)
+        inpu = self.find_element(how, what)
         inpu.clear()
         inpu.send_keys(value)
 
-    def get_text(self, findby, elmethod):
+    def get_text(self, how, what):
         '''
         获取指定元素的文本
-        @param findby：定位方法
-        @param elmethod：要定位元素的属性值
+        @param how：定位方法
+        @param what：要定位元素的属性值
         @return：返回获取到的元素文本
         '''
-        return self.find_element(findby, elmethod).text
+        return self.find_element(how, what).text
 
-    def click_item(self, findby, elmethod):
+    def click_item(self, how, what):
         '''
         在对应的项目上执行单击操作
-        @param findby：定位方法
-        @param elmethod：要定位元素的属性值
+        @param how：定位方法
+        @param what：要定位元素的属性值
         '''
-        self.find_element(findby, elmethod).click()
+        self.find_element(how, what).click()
 
-    def upload_file(self, findby, elmethod, path):
+    def upload_file(self, how, what, value):
         '''
         上传文件
-        :param findby:定位方法
-        :param elmethod:定位元素的属性值
-        :param path:文件路径
+        :param how:定位方法
+        :param what:定位元素的属性值
+        :param value:文件路径
         :return:
         '''
         # self.DRIVER.execute_script(js)
-        self.find_element(findby, elmethod).send_keys(path)
+        self.find_element(how, what).send_keys(value)
 
-    def screen_shot(self, file_type, file_path):
+    def screen_shot(self, file_type, value):
         '''
         截图
         :param file_type:截图类型，0为结果截图，1为错误截图
-        :param file_path:图片文件名
+        :param value:图片文件名
         :return:
         '''
         if file_type == 0:
-            self.DRIVER.save_screenshot("../screenshot/result/" + file_path)
+            self.DRIVER.save_screenshot("../screenshot/result/" + value)
         elif file_type == 1:
-            self.DRIVER.save_screenshot("../screenshot/error/" + file_path)
+            self.DRIVER.save_screenshot("../screenshot/error/" + value)
 
-    def is_exist(self, findby, elmethod):
+    def is_element_presen(self, how, what):
         '''
         判断元素是否存在
-        :param findby:定位方法
-        :param elmethod:要定位元素的属性值
+        :param how:定位方法
+        :param what:要定位元素的属性值
         :return:
         '''
         try:
-            self.find_element(findby, elmethod)
-            return True
-        except:
+            self.find_element(how, what)
+        except NoSuchElementException:
             return False
+        return True
 
-    # def switoiframe(self, findby, elmethod):
-    #     '''
-    #     切换iframe
-    #     :param findby:定位方法
-    #     :param elmethod: 定位元素的属性值
-    #     :return:
-    #     '''
-    #     iframe = self.find_element(findby, elmethod)
-    #     self.DRIVER.switch_to.frame(iframe)
+
+
 
 
 
