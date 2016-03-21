@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12478f62-0759-48dd-a75c-d6892e0bfdee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/error/Order-list.png" afterPath="$PROJECT_DIR$/src/screenshot/error/Order-list.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result0.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result1.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result3.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result4.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result6.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result7.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result8.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result9.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ERP/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERP/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/../ERP/src/common_functions/webdriver_help.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERPTestCase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ERPTestCase/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/qt_opera.py" afterPath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/qt_opera.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/webdriver_help.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/file_oper.py" afterPath="$PROJECT_DIR$/src/common_functions/file_oper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/qt_operations.py" afterPath="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/test_login.py" afterPath="$PROJECT_DIR$/src/testcase/test_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/test_search.py" afterPath="$PROJECT_DIR$/src/testcase/test_search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testdata/order_list.xml" afterPath="$PROJECT_DIR$/src/testdata/order_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testall.py" afterPath="$PROJECT_DIR$/testall.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/common_data/login.py" afterPath="$PROJECT_DIR$/src/common_data/login_data.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/common_data/order_list.py" afterPath="$PROJECT_DIR$/src/common_data/order_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testdata/login_data.xml" afterPath="$PROJECT_DIR$/src/testdata/login_data.xml" />
     </list>
     <ignored path="newERP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,20 +34,29 @@
         <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="39" />
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding>
-                <element signature="e#53#64#0" expanded="true" />
                 <element signature="e#1066#1144#1" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common_data/login_data.py">
+      <file leaf-file-name="webdriver_help.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.89285713">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="50" />
+            <state vertical-scroll-proportion="-2.6360545">
+              <caret line="95" column="30" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -97,26 +92,27 @@
         <option value="$PROJECT_DIR$/src/testdata/orderlist.xml" />
         <option value="$PROJECT_DIR$/src/common/order_list.py" />
         <option value="$PROJECT_DIR$/src/common_data/login.py" />
-        <option value="$PROJECT_DIR$/src/testdata/order_list.xml" />
         <option value="$PROJECT_DIR$/src/common_data/logindata.py" />
         <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
         <option value="$PROJECT_DIR$/src/common_data/order_list.py" />
-        <option value="$PROJECT_DIR$/src/testdata/login_data.xml" />
         <option value="$PROJECT_DIR$/testall.py" />
         <option value="$PROJECT_DIR$/src/common_functions/file_oper.py" />
         <option value="$PROJECT_DIR$/src/common_data/order_search.py" />
-        <option value="$PROJECT_DIR$/src/testcase/test_login.py" />
         <option value="$PROJECT_DIR$/src/testcase/test_search.py" />
         <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
         <option value="$PROJECT_DIR$/src/common_data/login_data.py" />
+        <option value="$PROJECT_DIR$/src/testcase/test_login.py" />
+        <option value="$PROJECT_DIR$/src/testdata/login_data.xml" />
+        <option value="$PROJECT_DIR$/src/testdata/menu.xml" />
+        <option value="$PROJECT_DIR$/src/testdata/order_list.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="223" />
+    <option name="y" value="117" />
+    <option name="width" value="1095" />
+    <option name="height" value="750" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -143,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,31 +225,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newERP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newERP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ERP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -264,7 +242,7 @@
       <recent name="G:\webdriver\newERP\src\testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_search (1)">
+  <component name="RunManager" selected="Python tests.Unittests in test_login">
     <configuration default="false" name="Unittests in test_search (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -491,8 +469,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_search (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_search (1)" />
         <item index="2" class="java.lang.String" itemvalue="Python.testall" />
         <item index="3" class="java.lang.String" itemvalue="Python.file_oper" />
         <item index="4" class="java.lang.String" itemvalue="Python.login (1)" />
@@ -513,16 +491,16 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_login - 2016.03.18 at 15h 37m 14s.xml">
-      <configuration name="Unittests in test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login - 2016.03.18 at 15h 38m 22s.xml">
-      <configuration name="Unittests in test_login" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_login - 2016.03.18 at 15h 44m 13s.xml">
       <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_login - 2016.03.18 at 15h 44m 48s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login - 2016.03.21 at 12h 02m 39s.xml">
+      <configuration name="Unittests in test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login - 2016.03.21 at 12h 03m 51s.xml">
       <configuration name="Unittests in test_login" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_search_(1) - 2016.03.18 at 15h 46m 06s.xml">
@@ -545,26 +523,26 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="223" y="117" width="1095" height="750" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17934094" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23368023" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3580081" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27590847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2949757" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22307692" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27590847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -589,9 +567,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="39" />
           <folding>
-            <element signature="e#37#48#0" expanded="true" />
+            <element signature="e#1066#1144#1" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_data/login_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -599,20 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
-          <folding>
-            <element signature="e#24#39#1" expanded="false" />
-            <element signature="e#40#70#0" expanded="false" />
-            <element signature="e#2335#2550#0" expanded="false" />
-            <element signature="e#2584#2657#0" expanded="false" />
-            <element signature="e#2694#2798#0" expanded="false" />
-            <element signature="e#3505#3751#0" expanded="false" />
-            <element signature="e#3795#4049#0" expanded="false" />
-            <element signature="e#4104#4336#0" expanded="false" />
-            <element signature="e#4381#4544#0" expanded="false" />
-            <element signature="e#4782#5001#0" expanded="false" />
-            <element signature="e#5056#5371#0" expanded="false" />
-            <element signature="e#5425#5666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,7 +615,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
-            <element signature="e#53#64#0" expanded="true" />
             <element signature="e#1066#1144#1" expanded="false" />
           </folding>
         </state>
@@ -631,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,9 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="n#list_data#0;n#order#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +640,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#53#64#0" expanded="true" />
             <element signature="e#1066#1144#1" expanded="false" />
           </folding>
         </state>
@@ -662,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="50" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,20 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
-          <folding>
-            <element signature="e#24#39#1" expanded="false" />
-            <element signature="e#40#70#0" expanded="false" />
-            <element signature="e#2335#2550#0" expanded="false" />
-            <element signature="e#2584#2657#0" expanded="false" />
-            <element signature="e#2694#2798#0" expanded="false" />
-            <element signature="e#3505#3751#0" expanded="false" />
-            <element signature="e#3795#4049#0" expanded="false" />
-            <element signature="e#4104#4336#0" expanded="false" />
-            <element signature="e#4381#4544#0" expanded="false" />
-            <element signature="e#4782#5001#0" expanded="false" />
-            <element signature="e#5056#5371#0" expanded="false" />
-            <element signature="e#5425#5666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,9 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="e#37#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,9 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="n#list_data#0;n#order#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,10 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#41#1" expanded="false" />
-            <element signature="e#126#1955#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,20 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#39#1" expanded="false" />
-            <element signature="e#40#70#0" expanded="false" />
-            <element signature="e#2335#2550#0" expanded="false" />
-            <element signature="e#2584#2657#0" expanded="false" />
-            <element signature="e#2694#2798#0" expanded="false" />
-            <element signature="e#3505#3751#0" expanded="false" />
-            <element signature="e#3795#4049#0" expanded="false" />
-            <element signature="e#4104#4336#0" expanded="false" />
-            <element signature="e#4381#4544#0" expanded="false" />
-            <element signature="e#4782#5001#0" expanded="false" />
-            <element signature="e#5056#5371#0" expanded="false" />
-            <element signature="e#5425#5666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,20 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#39#1" expanded="false" />
-            <element signature="e#40#70#0" expanded="false" />
-            <element signature="e#2335#2550#0" expanded="false" />
-            <element signature="e#2584#2657#0" expanded="false" />
-            <element signature="e#2694#2798#0" expanded="false" />
-            <element signature="e#3505#3751#0" expanded="false" />
-            <element signature="e#3795#4049#0" expanded="false" />
-            <element signature="e#4104#4336#0" expanded="false" />
-            <element signature="e#4381#4544#0" expanded="false" />
-            <element signature="e#4782#5001#0" expanded="false" />
-            <element signature="e#5056#5371#0" expanded="false" />
-            <element signature="e#5425#5666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,7 +700,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#53#64#0" expanded="true" />
             <element signature="e#1066#1144#1" expanded="false" />
           </folding>
         </state>
@@ -775,20 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#39#1" expanded="false" />
-            <element signature="e#40#70#0" expanded="false" />
-            <element signature="e#2335#2550#0" expanded="false" />
-            <element signature="e#2584#2657#0" expanded="false" />
-            <element signature="e#2694#2798#0" expanded="false" />
-            <element signature="e#3505#3751#0" expanded="false" />
-            <element signature="e#3795#4049#0" expanded="false" />
-            <element signature="e#4104#4336#0" expanded="false" />
-            <element signature="e#4381#4544#0" expanded="false" />
-            <element signature="e#4782#5001#0" expanded="false" />
-            <element signature="e#5056#5371#0" expanded="false" />
-            <element signature="e#5425#5666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,9 +716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="n#list_data#0;n#order#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +725,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="27" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="27" />
           <folding>
-            <element signature="e#53#64#0" expanded="true" />
             <element signature="e#1066#1144#1" expanded="false" />
           </folding>
         </state>
@@ -817,20 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
-          <folding>
-            <element signature="e#24#39#1" expanded="false" />
-            <element signature="e#40#70#0" expanded="false" />
-            <element signature="e#2335#2550#0" expanded="false" />
-            <element signature="e#2584#2657#0" expanded="false" />
-            <element signature="e#2694#2798#0" expanded="false" />
-            <element signature="e#3505#3751#0" expanded="false" />
-            <element signature="e#3795#4049#0" expanded="false" />
-            <element signature="e#4104#4336#0" expanded="false" />
-            <element signature="e#4381#4544#0" expanded="false" />
-            <element signature="e#4782#5001#0" expanded="false" />
-            <element signature="e#5056#5371#0" expanded="false" />
-            <element signature="e#5425#5666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,9 +741,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#list_data#0;n#order#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +750,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
-            <element signature="e#53#64#0" expanded="true" />
             <element signature="e#1066#1144#1" expanded="false" />
           </folding>
         </state>
@@ -873,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="50" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,28 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="53" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="30" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="30" />
-          <folding>
-            <element signature="e#24#39#1" expanded="false" />
-            <element signature="e#40#70#0" expanded="false" />
-            <element signature="e#2335#2550#0" expanded="false" />
-            <element signature="e#2584#2657#0" expanded="false" />
-            <element signature="e#2694#2798#0" expanded="false" />
-            <element signature="e#3505#3751#0" expanded="false" />
-            <element signature="e#3795#4049#0" expanded="false" />
-            <element signature="e#4104#4336#0" expanded="false" />
-            <element signature="e#4381#4544#0" expanded="false" />
-            <element signature="e#4782#5001#0" expanded="false" />
-            <element signature="e#5056#5371#0" expanded="false" />
-            <element signature="e#5425#5666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.38067">
           <caret line="892" column="20" selection-start-line="892" selection-start-column="8" selection-end-line="892" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="249" column="24" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="389" column="34" selection-start-line="389" selection-start-column="27" selection-end-line="389" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,36 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/file_oper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#44#71#0" expanded="true" />
-            <element signature="e#144#986#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/login_data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5813953">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcase/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0493096">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="e#59#107#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,16 +878,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="e#24#41#1" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/login_data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.117647">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_data/login_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3422819">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2016129">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcase/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/file_oper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.098471984">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1052,28 +930,25 @@
     <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#37#48#0" expanded="true" />
-          </folding>
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="39" />
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
-            <element signature="e#53#64#0" expanded="true" />
             <element signature="e#1066#1144#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_data/login_data.py">
+    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.89285713">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="50" />
+        <state vertical-scroll-proportion="-2.6360545">
+          <caret line="95" column="30" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="30" />
           <folding />
         </state>
       </provider>

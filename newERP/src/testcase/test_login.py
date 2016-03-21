@@ -16,7 +16,7 @@ class Login(unittest.TestCase):
         WebDriverHelp('open', 'chrome', 'local').setup()
 
     def test_login(self):
-        Operations('login').login()
+        Operations().login()
         login_user = WebDriverHelp().get_text('xpath', '//*[@id="header-nav-user"]/div/a/span')  # 获取登录后的用户名
         username = LoginData('login').get_username('username')  # 登陆用户
         if login_user == username:
@@ -25,7 +25,7 @@ class Login(unittest.TestCase):
             print '登陆用户错误'
             WebDriverHelp().screen_shot(1, 'login-user.png')
         time.sleep(0.5)
-        Operations('logout').logout()
+        Operations().logout()
 
     def tearDown(self):
         WebDriverHelp().teardown()

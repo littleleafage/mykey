@@ -9,6 +9,6 @@
     </login>
 
     <logout name="登出数据">
-        <logout_url>http://192.168.1.111/ccwk/erp/index.php?route=common/logout</logout_url>
+        <logout_url>http://192.168.1.111/ccwk/store/index.php?route=common/login</logout_url>
     </logout>
 </ERP>

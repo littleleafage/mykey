@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6656ea8-3bfe-4b01-9dc1-e329c1ebfbd7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../newERP/src/common/login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/searchresult0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/searchresult1.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/error/Order-list.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/error/Order-list.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result0.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result1.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result3.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result4.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result6.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result7.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result8.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result9.png" afterPath="$PROJECT_DIR$/../newERP/src/screenshot/result/Search-result9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newERP/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/common_data/order_list.py" afterPath="$PROJECT_DIR$/../newERP/src/common_data/order_list.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/common_functions/file_oper.py" afterPath="$PROJECT_DIR$/../newERP/src/common_functions/file_oper.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/common_functions/qt_operations.py" afterPath="$PROJECT_DIR$/../newERP/src/common_functions/qt_operations.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/../newERP/src/common_functions/webdriver_help.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/testcase/test_login.py" afterPath="$PROJECT_DIR$/../newERP/src/testcase/test_login.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/testcase/test_search.py" afterPath="$PROJECT_DIR$/../newERP/src/testcase/test_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/src/testdata/order_list.xml" afterPath="$PROJECT_DIR$/../newERP/src/testdata/order_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newERP/testall.py" afterPath="$PROJECT_DIR$/../newERP/testall.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../newERP/src/common/__init__.py" afterPath="$PROJECT_DIR$/../newERP/src/common_data/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../newERP/src/testdata/logindata.xml" afterPath="$PROJECT_DIR$/../newERP/src/testdata/login_data.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../newERP/src/testdata/orderlist.xml" afterPath="$PROJECT_DIR$/../newERP/src/testdata/order_list.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../newERP/src/common_data/login.py" afterPath="$PROJECT_DIR$/../newERP/src/common_data/login_data.py" />
     </list>
     <ignored path="ERP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,12 +43,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28328612">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webdriver_help.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12745099">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="57" selection-end-column="28" />
+              <folding>
+                <element signature="e#569#2484#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,19 +138,19 @@
         <option value="$PROJECT_DIR$/src/testData/TestCase_QT_Login.xml" />
         <option value="$PROJECT_DIR$/verfication.py" />
         <option value="$PROJECT_DIR$/src/common_functions/menu.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
         <option value="$PROJECT_DIR$/src/testcase/TestCase_Upload/uploadfile.py" />
         <option value="$PROJECT_DIR$/src/testcase/login/login.py" />
         <option value="$PROJECT_DIR$/testsuite_online_all.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-32" />
-    <option name="y" value="94" />
-    <option name="width" value="832" />
-    <option name="height" value="868" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -158,6 +177,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,17 +236,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="common_functions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -588,10 +607,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-32" y="94" width="832" height="868" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24307305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12927757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37121212" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -928,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9958042">
-          <caret line="102" column="52" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/login/stock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5952381">
@@ -987,9 +999,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28328612">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12745099">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="57" selection-end-column="28" />
+          <folding>
+            <element signature="e#569#2484#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

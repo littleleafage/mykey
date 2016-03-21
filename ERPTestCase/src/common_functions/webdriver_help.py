@@ -28,39 +28,38 @@ class WebDriverHelp(object):
         :return:
         '''
         global DRIVER
-        if(btype == "open"):
-            if(atype == "chrome"):
-                if(ctype == "local"):
-
+        if btype == "open":
+            if atype == "chrome":
+                if ctype == "local":
                     DRIVER = webdriver.Chrome()
-                    #DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                    # DRIVER.maximize_window()
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.CHROME)
                     DRIVER.maximize_window()
-            elif(atype == "ie"):
-                if(ctype == "local"):
+            elif atype == "ie":
+                if ctype == "local":
                     DRIVER = webdriver.Ie()
                     DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.INTERNETEXPLORER)
                     DRIVER.maximize_window()
-            elif(atype == "firefox"):
-                if(ctype == "local"):
+            elif atype == "firefox":
+                if ctype == "local":
                     DRIVER = webdriver.Firefox()
                     DRIVER.maximize_window()
-                elif(ctype == "notlocal"):
+                elif ctype == "notlocal":
                     DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
                     DRIVER.maximize_window()
         self.DRIVER = DRIVER
 
-    def setup(self, url):
+    def setup(self):
 
         '''
         测试URL
         :return:
         '''
         try:
-            # url = "http://s2.checheweike.com/erp"
+            url = "http://s2.checheweike.com/erp"
             self.DRIVER.get(url)
         except NoSuchElementException:
             print "地址出错"
@@ -83,14 +82,16 @@ class WebDriverHelp(object):
         :param elmethod:要定位元素的属性值，如：id，name，class name，xpath等
         :return:
         '''
-        if(findby == 'byid'):
+        if findby == 'byid':
             return self.DRIVER.find_element_by_id(elmethod)
-        elif(findby == 'byname'):
+        elif findby == 'byname':
             return self.DRIVER.find_element_by_name(elmethod)
-        elif(findby == 'byclassname'):
+        elif findby == 'byclassname':
             return self.DRIVER.find_element_by_class_name(elmethod)
-        elif(findby == 'byxpath'):
+        elif findby == 'byxpath':
             return self.DRIVER.find_element_by_xpath(elmethod)
+        elif findby == 'linktext':
+            return self.DRIVER.find_element_by_link_text(elmethod)
 
     def gettext(self, findby, elmethod):
         '''
@@ -130,7 +131,7 @@ class WebDriverHelp(object):
         :param imgname:图片文件名
         :return:
         '''
-        self.DRIVER.save_screenshot("../error/" + imgname)
+        self.DRIVER.save_screenshot("../screenshot/" + imgname)
 
     def selectvalue(self, findby, select, selectvalue):
         '''

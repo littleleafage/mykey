@@ -29,7 +29,6 @@ class WebDriverHelp(object):
         if btype == "open":
             if atype == "chrome":
                 if ctype == "local":
-
                     DRIVER = webdriver.Chrome()
                     #DRIVER.maximize_window()
                 elif ctype == "notlocal":
