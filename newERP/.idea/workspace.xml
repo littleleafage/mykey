@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12478f62-0759-48dd-a75c-d6892e0bfdee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ERP/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERP/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/../ERP/src/common_functions/webdriver_help.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result9.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/error/Order-list.png" afterPath="$PROJECT_DIR$/src/screenshot/error/Order-list.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result0.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result1.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result2.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result3.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result4.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result6.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screenshot/result/Search-result7.png" afterPath="$PROJECT_DIR$/src/screenshot/result/Search-result7.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERPTestCase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ERPTestCase/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/qt_opera.py" afterPath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/qt_opera.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/webdriver_help.py" afterPath="$PROJECT_DIR$/../ERPTestCase/src/common_functions/webdriver_help.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/test_login.py" afterPath="$PROJECT_DIR$/src/testcase/test_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testdata/login_data.xml" afterPath="$PROJECT_DIR$/src/testdata/login_data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_data/order_search.py" afterPath="$PROJECT_DIR$/src/common_data/order_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/file_oper.py" afterPath="$PROJECT_DIR$/src/common_functions/file_oper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common_functions/qt_operations.py" afterPath="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testcase/test_search.py" afterPath="$PROJECT_DIR$/src/testcase/test_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testdata/order_list.xml" afterPath="$PROJECT_DIR$/src/testdata/order_list.xml" />
     </list>
     <ignored path="newERP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,34 +39,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="qt_operations.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="qt_operations.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.29832935">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common_data/order_search.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_list.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.352941">
+              <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_oper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common_functions/file_oper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
               <folding>
-                <element signature="e#1066#1144#1" expanded="false" />
+                <element signature="e#182#356#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webdriver_help.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6360545">
-              <caret line="95" column="30" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_search.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,23 +115,23 @@
         <option value="$PROJECT_DIR$/src/common_functions/webdriver_help.py" />
         <option value="$PROJECT_DIR$/src/common_data/order_list.py" />
         <option value="$PROJECT_DIR$/testall.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/file_oper.py" />
-        <option value="$PROJECT_DIR$/src/common_data/order_search.py" />
-        <option value="$PROJECT_DIR$/src/testcase/test_search.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
         <option value="$PROJECT_DIR$/src/common_data/login_data.py" />
         <option value="$PROJECT_DIR$/src/testcase/test_login.py" />
         <option value="$PROJECT_DIR$/src/testdata/login_data.xml" />
         <option value="$PROJECT_DIR$/src/testdata/menu.xml" />
+        <option value="$PROJECT_DIR$/src/testcase/test_search.py" />
         <option value="$PROJECT_DIR$/src/testdata/order_list.xml" />
+        <option value="$PROJECT_DIR$/src/common_functions/file_oper.py" />
+        <option value="$PROJECT_DIR$/src/common_data/order_search.py" />
+        <option value="$PROJECT_DIR$/src/common_functions/qt_operations.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="117" />
-    <option name="width" value="1095" />
-    <option name="height" value="750" />
+    <option name="x" value="27" />
+    <option name="y" value="60" />
+    <option name="width" value="1491" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -139,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,7 +247,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -242,7 +261,7 @@
       <recent name="G:\webdriver\newERP\src\testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_login">
+  <component name="RunManager" selected="Python tests.Unittests in test_search (1)">
     <configuration default="false" name="Unittests in test_search (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -469,10 +488,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_search (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testall" />
-        <item index="3" class="java.lang.String" itemvalue="Python.file_oper" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_search (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.file_oper" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_login" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testall" />
         <item index="4" class="java.lang.String" itemvalue="Python.login (1)" />
       </list>
     </recent_temporary>
@@ -491,58 +510,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_login - 2016.03.18 at 15h 44m 13s.xml">
-      <configuration name="Unittests in test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login - 2016.03.18 at 15h 44m 48s.xml">
-      <configuration name="Unittests in test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login - 2016.03.21 at 12h 02m 39s.xml">
-      <configuration name="Unittests in test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_login - 2016.03.21 at 12h 03m 51s.xml">
-      <configuration name="Unittests in test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.18 at 15h 46m 06s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 00m 44s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.18 at 15h 48m 11s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 01m 07s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.18 at 15h 48m 35s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 12m 41s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.18 at 15h 57m 49s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 14m 29s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.18 at 15h 58m 38s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 21m 15s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_search_(1) - 2016.03.18 at 15h 59m 21s.xml">
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 21m 54s.xml">
+      <configuration name="Unittests in test_search (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 23m 18s.xml">
+      <configuration name="Unittests in test_search (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 25m 40s.xml">
+      <configuration name="Unittests in test_search (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 25m 56s.xml">
+      <configuration name="Unittests in test_search (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_search_(1) - 2016.03.22 at 10h 27m 18s.xml">
       <configuration name="Unittests in test_search (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="117" width="1095" height="750" extended-state="1" />
+    <frame x="27" y="60" width="1491" height="832" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23368023" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14865795" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3590844" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27590847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2949757" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22307692" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27590847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -558,7 +577,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -583,9 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="e#1066#1144#1" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,9 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#1066#1144#1" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,9 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1066#1144#1" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,9 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#1066#1144#1" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,9 +735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="27" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#1066#1144#1" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,9 +758,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#1066#1144#1" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,13 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_data/order_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testdata/login_data.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.117647">
@@ -896,14 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testdata/menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2016129">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -911,44 +903,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/file_oper.py">
+    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.098471984">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.4814815">
+          <caret line="91" column="31" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testdata/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12776831">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testdata/order_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        <state vertical-scroll-proportion="-7.352941">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testcase/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42951542">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_functions/file_oper.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <element signature="e#182#356#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_data/order_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common_functions/qt_operations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#1066#1144#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common_functions/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6360545">
-          <caret line="95" column="30" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.29832935">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

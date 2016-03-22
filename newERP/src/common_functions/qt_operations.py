@@ -22,32 +22,28 @@ class Operations(object):
         except NSEE:
             WebDriverHelp().screen_shot(1, 'login.png')
 
-
     def logout(self):
         url = LoginData('logout').get_logout_url('logout_url')
         WebDriverHelp().geturl(url)
         time.sleep(1)
 
     def search(self):
-        '''
-        工单列表查询
-        :param orderdata: 元素信息
-        :return:
-        '''
-        list_xpath = OrderList('list')
-        list_value = OrderList('list_data')
+
+        list_xpath = OrderList('list').get_search()
+        list_value = OrderList('list_data').get_search()
         try:
-            WebDriverHelp().input_value('xpath', list_xpath.get_license('car_license'), list_value.get_license('car_license'))
-            WebDriverHelp().input_value('xpath', list_xpath.get_company('company'), list_value.get_company('company'))
-            WebDriverHelp().select_value('xpath', list_xpath.get_bus_type('business_type'), list_value.get_bus_type('business_type'))  # 下拉列表
-            WebDriverHelp().select_value('xpath', list_xpath.get_receiver('receiver'), list_value.get_receiver('receiver'))
-            WebDriverHelp().input_value('xpath', list_xpath.get_date_start('bill_date_start'), list_value.get_date_start('bill_date_start'))
-            WebDriverHelp().input_value('xpath', list_xpath.get_date_end('bill_date_end'), list_value.get_date_end('bill_date_end'))
-            WebDriverHelp().input_value('xpath', list_xpath.get_bill_no('no'), list_value.get_bill_no('no'))
-            WebDriverHelp().select_value('xpath', list_xpath.get_stock_status('stock_status'), list_value.get_stock_status('stock_status'))
-            WebDriverHelp().select_value('xpath', list_xpath.get_audited('is_audited'), list_value.get_audited('is_audited'))
-            WebDriverHelp().select_value('xpath', list_xpath.get_sub_store('sub_store'), list_value.get_sub_store('sub_store'))
-            WebDriverHelp().click_item('xpath', list_xpath.get_search_btn('search_btn'))
+            length = len(list_xpath)
+            data_length = len(list_value)
+            for i in range(0, length-2, 1):
+                for j in range(i, data_length, 1):
+                    if i == j:
+                        try:
+                            WebDriverHelp().input_value('xpath', list_xpath[i], list_value[j])
+                        except:
+                            WebDriverHelp().select_value('xpath', list_xpath[i], list_value[j])
+                        WebDriverHelp().click_item('class_name', list_xpath[length-1])
+                        time.sleep(0.3)
+                        WebDriverHelp().screen_shot(0, 'Search-result' + str(i) + '.png')
         except:
             WebDriverHelp().screen_shot(1, 'Order-list.png')  # 截取工单列表
 

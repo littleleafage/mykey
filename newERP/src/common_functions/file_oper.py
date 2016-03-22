@@ -29,9 +29,6 @@ class FileOpera(object):
             return child.text
 
     def readxml_length(self, ftagname):
-        # root = DOC.documentElement
-        # message = root.getElementsByTagName(ftagname)[num]
-        # return message.childNodes
         path = './' + ftagname
         root = DOC.findall(path)
         length = ''
@@ -39,4 +36,21 @@ class FileOpera(object):
             length = len(child.getchildren())
 
         return length
+
+    def read_texts(self, ftagname):
+        path = './' + ftagname
+        root = DOC.findall(path)
+        text = []
+        for childs in root:
+            for child in childs.getchildren():
+                text.append(child.text)
+
+        return text
+
+if __name__ == '__main__':
+    list_data = FileOpera('order_list.xml').read_texts('list')
+    length = len(list_data)
+    print length
+    for i in range(0, length-2, 1):
+        print list_data[i]
 

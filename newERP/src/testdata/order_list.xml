@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <order>
     <list name="工单列表">
-        <car_license>//*[@id='content']/div/div[2]/div[1]/form/ul[1]/li[1]/div[2]/input</car_license>  <!-- 车牌定位 -->
-        <company>//*[@id="content"]/div/div[2]/div[1]/form/ul[1]/li[2]/div[2]/input</company>  <!-- 手机 -->
-        <business_type>//*[@id="content"]/div/div[2]/div[1]/form/ul[1]/li[3]/div[2]/select</business_type>  <!-- 业务类型 -->
-        <receiver>//*[@id="content"]/div/div[2]/div[1]/form/ul[2]/li[1]/div[2]/select</receiver>  <!-- 服务顾问 -->
-        <bill_date_start>//*[@id="content"]/div/div[2]/div[1]/form/ul[2]/li[2]/div[2]/div[1]/input</bill_date_start>  <!-- 单据开始时间 -->
-        <bill_date_end>//*[@id="content"]/div/div[2]/div[1]/form/ul[2]/li[2]/div[2]/div[3]/input//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[1]/div[2]/input</bill_date_end>  <!-- 单据结束时间 -->
-        <no>//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[1]/div[2]/input</no>  <!-- 单据编号 -->
-        <stock_status>//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[2]/div[2]/select</stock_status>  <!-- 库存状态 -->
-        <is_audited>//*[@id="content"]/div/div[2]/div[1]/form/div/ul/li[3]/div[2]/select</is_audited>  <!-- 审核状态 -->
-        <sub_store>//*[@id="content"]/div/div[2]/div[1]/form/ul[3]/li/div[2]/select</sub_store>  <!-- 门店 -->
-        <open_advanced_search>//*[@id="content"]/div/div[2]/div[3]/a</open_advanced_search>  <!-- 高级搜索 -->
+        <car_license>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/ul/li[1]/div[2]/input</car_license>  <!-- 车牌定位 -->
+        <business_type>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/ul/li[2]/div[2]/select</business_type>  <!-- 业务类型 -->
+        <receiver>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[1]/li[1]/div[2]/select</receiver>  <!-- 服务顾问 -->
+        <bill_date_start>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[1]/li[2]/div[2]/div[1]/input</bill_date_start>  <!-- 单据开始时间 -->
+        <bill_date_end>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[1]/li[2]/div[2]/div[3]/input</bill_date_end>  <!-- 单据结束时间 -->
+        <no>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[2]/li[1]/div[2]/input</no>  <!-- 单据编号 -->
+        <company>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[2]/li[2]/div[2]/input</company>  <!-- 单位 -->
+        <sub_store>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[2]/li[3]/div[2]/select</sub_store>  <!-- 门店 -->
+        <open_advanced_search>/html/body/div[1]/div/div/article/section/div[1]/div[3]/a</open_advanced_search>  <!-- 高级搜索 -->
         <search_btn>search-btn</search_btn>  <!-- 查询按钮 -->
     </list>
 
     <list_data name="工单数据">
         <car_license>川FHU666</car_license>
-        <company> </company>
         <business_type>全部</business_type>
         <receiver>唐小军</receiver>
         <bill_date_start>20160316</bill_date_start>
         <bill_date_end>20160316</bill_date_end>
-        <no> </no>
-        <stock_status>不限</stock_status>
-        <is_audited>不限</is_audited>
+        <no>1234</no>
+        <company>车车云</company>
         <sub_store>不限</sub_store>
     </list_data>
 
