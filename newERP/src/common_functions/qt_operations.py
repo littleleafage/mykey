@@ -28,7 +28,6 @@ class Operations(object):
         time.sleep(1)
 
     def search(self):
-
         list_xpath = OrderList('list').get_search()
         list_value = OrderList('list_data').get_search()
         try:
