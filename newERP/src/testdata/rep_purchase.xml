@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<report>
+    <purchase name="工单列表">
+        <no>/html/body/div/div/div/div/article/section/form/div/div[1]/div[1]/div/div/input</no>  <!-- 单据编号 -->
+        <warehouse>/html/body/div/div/div/div/article/section/form/div/div[1]/div[2]/div/div/select</warehouse>
+        <supplier>/html/body/div/div/div/div/article/section/form/div/div[1]/div[3]/div/div/select</supplier>
+        <is_audited>/html/body/div/div/div/div/article/section/form/div/div[1]/div[4]/div/div/select</is_audited>
+        <buyer>/html/body/div/div/div/div/article/section/form/div/div[2]/div[1]/div/div/select</buyer>
+        <sub_store>/html/body/div/div/div/div/article/section/form/div/div[2]/div[2]/div/div/select</sub_store>  <!-- 门店 -->
+        <bill_date_start>/html/body/div/div/div/div/article/section/form/div/div[2]/div[3]/div/div/input[1]</bill_date_start>  <!-- 单据开始时间 -->
+        <bill_date_end>/html/body/div/div/div/div/article/section/form/div/div[2]/div[3]/div/div/input[2]</bill_date_end>  <!-- 单据结束时间 -->
+        <search_btn>/html/body/div/div/div/div/article/section/form/div/div[2]/div[4]/button</search_btn>  <!-- 查询按钮 -->
+    </purchase>
+
+    <pur_data name="工单数据">
+        <no> </no>
+        <warehouse>川D卡</warehouse>
+        <supplier>全部</supplier>
+        <is_audited>不限</is_audited>
+        <buyer>test1112</buyer>
+        <sub_store>默认店</sub_store>
+        <bill_date_start> </bill_date_start>
+        <bill_date_end> </bill_date_end>
+    </pur_data>
+
+</report>

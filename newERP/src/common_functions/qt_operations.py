@@ -6,9 +6,10 @@ import time
 from src.common_functions.webdriver_help import WebDriverHelp
 from src.common_data.login_data import LoginData
 from selenium.common.exceptions import NoSuchElementException as NSEE
-from src.common_data.order_search import OrderList
+from src.common_data.get_xml_text import GetXmlText
 
 
+# noinspection PyBroadException
 class Operations(object):
 
     def login(self):
@@ -27,22 +28,22 @@ class Operations(object):
         WebDriverHelp().geturl(url)
         time.sleep(1)
 
-    def search(self):
-        list_xpath = OrderList('list').get_search()
-        list_value = OrderList('list_data').get_search()
+    def search(self, filename, imgname, tag1, tag2):
+        list_xpath = GetXmlText(filename, tag1).get_search()
+        list_value = GetXmlText(filename, tag2).get_search()
         try:
             length = len(list_xpath)
             data_length = len(list_value)
-            for i in range(0, length-2, 1):
+            for i in range(0, length-1, 1):
                 for j in range(i, data_length, 1):
                     if i == j:
                         try:
                             WebDriverHelp().input_value('xpath', list_xpath[i], list_value[j])
-                        except:
+                        except Exception:
                             WebDriverHelp().select_value('xpath', list_xpath[i], list_value[j])
-                        WebDriverHelp().click_item('class_name', list_xpath[length-1])
+                        WebDriverHelp().click_item('xpath', list_xpath[length-1])
                         time.sleep(0.3)
-                        WebDriverHelp().screen_shot(0, 'Search-result' + str(i) + '.png')
-        except:
-            WebDriverHelp().screen_shot(1, 'Order-list.png')  # 截取工单列表
+                        WebDriverHelp().screen_shot(0, imgname + str(i) + '.png')
+        except Exception:
+            WebDriverHelp().screen_shot(1, imgname + '.png')  # 截取工单列表
 

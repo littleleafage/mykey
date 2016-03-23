@@ -9,9 +9,12 @@
         <no>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[2]/li[1]/div[2]/input</no>  <!-- 单据编号 -->
         <company>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[2]/li[2]/div[2]/input</company>  <!-- 单位 -->
         <sub_store>/html/body/div[1]/div/div/article/section/div[1]/div[1]/form/div/ul[2]/li[3]/div[2]/select</sub_store>  <!-- 门店 -->
-        <open_advanced_search>/html/body/div[1]/div/div/article/section/div[1]/div[3]/a</open_advanced_search>  <!-- 高级搜索 -->
-        <search_btn>search-btn</search_btn>  <!-- 查询按钮 -->
+        <search_btn>/html/body/div/div/div/article/section/div[1]/div[2]/button</search_btn>  <!-- 查询按钮 -->
     </list>
+
+    <list_ad>
+        <open_advanced_search>/html/body/div[1]/div/div/article/section/div[1]/div[3]/a</open_advanced_search>  <!-- 高级搜索 -->
+    </list_ad>
 
     <list_data name="工单数据">
         <car_license>川FHU666</car_license>

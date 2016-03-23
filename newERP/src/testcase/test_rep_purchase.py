@@ -22,13 +22,14 @@ class Search(unittest.TestCase):
         try:
             WebDriverHelp().click_item('link_text', 'ERP')
             time.sleep(1.5)
-            WebDriverHelp().click_item('xpath', '/html/body/aside/div/ul/li[2]/a')
+            WebDriverHelp().click_item('xpath', '/html/body/aside/div/ul/li[4]/a')
             time.sleep(0.5)
-            WebDriverHelp().click_item('xpath', GetXmlText('order_list.xml', 'list_ad').get_xml_text('open_advanced_search'))
+            WebDriverHelp().click_item('xpath', '/html/body/div/div/section/ul/li[1]/a')
+            time.sleep(0.5)
         except NoSuchElementException:
             pass
 
-        Operations().search('order_list.xml', 'Search-Order', 'list', 'list_data')
+        Operations().search('rep_purchase.xml', 'Search-Purchase', 'purchase', 'pur_data')
         time.sleep(0.5)
 
         # Operations().logout()
