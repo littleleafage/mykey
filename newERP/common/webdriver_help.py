@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-'''
-存放公用的方法
-'''
+# 存放公用的方法
 from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.action_chains import Keys
 
 global G_WEBDRIVER,G_BROWSERTYPE,DRIVER
 
@@ -13,7 +12,6 @@ class WebDriverHelp(object):
     '''
     主要完成页面的基本操作，如打开指定的URL，对页面上的元素进行操作等
     '''
-
     def __init__(self, btype="close", atype="firefox", ctype="local"):
         '''
         打开对应的浏览器
@@ -79,6 +77,28 @@ class WebDriverHelp(object):
         '''
         self.DRIVER.get(url)
 
+    def check(self, how, what, value):
+        '''
+        :param how:
+        :param what:
+        :param value:
+        :return:
+        '''
+        text = self.get_text(how, what)
+        if text == value:
+            print text
+            return True
+        else:
+            return False
+
+    def click_item(self, how, what):
+        '''
+        在对应的项目上执行单击操作
+        @param how：定位方法
+        @param what：要定位元素的属性值
+        '''
+        self.find_element(how, what).click()
+
     def find_element(self, how, what):
         '''
         定位元素
@@ -86,53 +106,16 @@ class WebDriverHelp(object):
         :param what:要定位元素的属性值，如：id，name，class name，xpath等
         :return:
         '''
-        try:
-            if how == 'id':
-                return self.DRIVER.find_element_by_id(what)
-            elif how == 'name':
-                return self.DRIVER.find_element_by_name(what)
-            elif how == 'class_name':
-                return self.DRIVER.find_element_by_class_name(what)
-            elif how == 'xpath':
-                return self.DRIVER.find_element_by_xpath(what)
-            elif how == 'link_text':
-                return self.DRIVER.find_element_by_link_text(what)
-        except NoSuchElementException:
-            print 'no such element'
-
-    def select_value(self, how, what, value):
-        '''
-        从下拉框中选择指定的项目
-        :param how: 定位方法
-        :param what: 要执行选择操作的下拉框句柄
-        :param value: 下拉框中要选择项的文本
-        :return:
-        '''
-        select = Select(self.find_element(how, what))
-        select.select_by_visible_text(value)
-
-    def input_clear(self, value):
-        '''
-        清空input输入框
-        :param value:
-        :return:
-        '''
-        self.find_element('xpath', value).clear()
-        # for i in range(len(value)):
-        #     temp = input_data[i]
-        #     self.find_element(temp[0], temp[1]).clear()
-
-    def input_value(self, how, what, value):
-        '''
-        在输入框中输入值
-        :param how: 定位方法
-        :param what: 要定位元素的属性值
-        :param value: 要给文本框输入的值
-        :return:
-        '''
-        inpu = self.find_element(how, what)
-        inpu.clear()
-        inpu.send_keys(value)
+        if how == 'xpath':
+            return self.DRIVER.find_element_by_xpath(what)
+        elif how == 'name':
+            return self.DRIVER.find_element_by_name(what)
+        elif how == 'class_name':
+            return self.DRIVER.find_element_by_class_name(what)
+        elif how == 'id':
+            return self.DRIVER.find_element_by_id(what)
+        elif how == 'link_text':
+            return self.DRIVER.find_element_by_link_text(what)
 
     def get_text(self, how, what):
         '''
@@ -143,24 +126,38 @@ class WebDriverHelp(object):
         '''
         return self.find_element(how, what).text
 
-    def click_item(self, how, what):
+    def input_clear(self, how, value):
         '''
-        在对应的项目上执行单击操作
-        @param how：定位方法
-        @param what：要定位元素的属性值
-        '''
-        self.find_element(how, what).click()
-
-    def upload_file(self, how, what, value):
-        '''
-        上传文件
-        :param how:定位方法
-        :param what:定位元素的属性值
-        :param value:文件路径
+        清空input输入框
+        :param how:
+        :param value:
         :return:
         '''
-        # self.DRIVER.execute_script(js)
-        self.find_element(how, what).send_keys(value)
+        self.find_element(how, value).clear()
+
+    def input_value(self, how, what, value):
+        '''
+        在输入框中输入值
+        :param how: 定位方法
+        :param what: 要定位元素的属性值
+        :param value: 要给文本框输入的值
+        :return:
+        '''
+        inpu = self.find_element(how, what)
+        inpu.send_keys(value)
+
+    def is_element_present(self, how, what):
+        '''
+        判断元素是否存在
+        :param how:定位方法
+        :param what:要定位元素的属性值
+        :return:
+        '''
+        try:
+            self.find_element(how, what)
+        except NoSuchElementException:
+            return False
+        return True
 
     def screen_shot(self, file_type, value):
         '''
@@ -174,18 +171,35 @@ class WebDriverHelp(object):
         elif file_type == 1:
             self.DRIVER.save_screenshot("../screenshot/error/" + value)
 
-    def is_element_presen(self, how, what):
+    def search(self, how, what, value):
+        self.input_clear(how, what)
+        self.input_value(how, what, value)
+        self.input_value(how, what, Keys.ENTER)
+
+    def select_value(self, how, what, value):
         '''
-        判断元素是否存在
-        :param how:定位方法
-        :param what:要定位元素的属性值
+        从下拉框中选择指定的项目
+        :param how: 定位方法
+        :param what: 要执行选择操作的下拉框句柄
+        :param value: 下拉框中要选择项的文本
         :return:
         '''
-        try:
-            self.find_element(how, what)
-        except NoSuchElementException:
-            return False
-        return True
+        select = Select(self.find_element(how, what))
+        select.select_by_visible_text(value)
+
+    def switch(self):
+        self.DRIVER.switch_to.alert.accept()
+
+    def upload_file(self, how, what, value):
+        '''
+        上传文件
+        :param how:定位方法
+        :param what:定位元素的属性值
+        :param value:文件路径
+        :return:
+        '''
+        # self.DRIVER.execute_script(js)
+        self.find_element(how, what).send_keys(value)
 
 
 
