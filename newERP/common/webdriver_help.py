@@ -106,14 +106,14 @@ class WebDriverHelp(object):
         :param what:要定位元素的属性值，如：id，name，class name，xpath等
         :return:
         '''
-        if how == 'xpath':
-            return self.DRIVER.find_element_by_xpath(what)
+        if how == 'id':
+            return self.DRIVER.find_element_by_id(what)
         elif how == 'name':
             return self.DRIVER.find_element_by_name(what)
+        elif how == 'xpath':
+            return self.DRIVER.find_element_by_xpath(what)
         elif how == 'class_name':
             return self.DRIVER.find_element_by_class_name(what)
-        elif how == 'id':
-            return self.DRIVER.find_element_by_id(what)
         elif how == 'link_text':
             return self.DRIVER.find_element_by_link_text(what)
 
@@ -124,16 +124,19 @@ class WebDriverHelp(object):
         @param what：要定位元素的属性值
         @return：返回获取到的元素文本
         '''
-        return self.find_element(how, what).text
+        try:
+            return self.find_element(how, what).text
+        except AttributeError:
+            raise AttributeError()
 
-    def input_clear(self, how, value):
+    def input_clear(self, how, what):
         '''
         清空input输入框
         :param how:
-        :param value:
+        :param what:
         :return:
         '''
-        self.find_element(how, value).clear()
+        self.find_element(how, what).clear()
 
     def input_value(self, how, what, value):
         '''
@@ -145,6 +148,9 @@ class WebDriverHelp(object):
         '''
         inpu = self.find_element(how, what)
         inpu.send_keys(value)
+
+    def refresh_page(self):  # 刷新页面
+        self.DRIVER.refresh()
 
     def is_element_present(self, how, what):
         '''
@@ -170,11 +176,6 @@ class WebDriverHelp(object):
             self.DRIVER.save_screenshot("../screenshot/result/" + value)
         elif file_type == 1:
             self.DRIVER.save_screenshot("../screenshot/error/" + value)
-
-    def search(self, how, what, value):
-        self.input_clear(how, what)
-        self.input_value(how, what, value)
-        self.input_value(how, what, Keys.ENTER)
 
     def select_value(self, how, what, value):
         '''

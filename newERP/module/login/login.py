@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
 from common.webdriver_help import WebDriverHelp
+import time
+
 
 class Login(object):
 
@@ -13,6 +15,12 @@ class Login(object):
         WebDriverHelp().input_value('name', 'username', 'yewen')
         WebDriverHelp().input_value('name', 'password', 'ccwk0715')
         WebDriverHelp().click_item('class_name', 'login-btn')
+        time.sleep(0.5)
+        result = WebDriverHelp().check('xpath', '/html/body/div[1]/article/section/ul/li[1]/a/h3', 'CRM')
+        if result:
+            print 'success to login'
+        else:
+            print 'failed to login'
 
     def logout(self):
         WebDriverHelp().geturl('https://www.checheweike.com/web/index.php?route=common/logout')
