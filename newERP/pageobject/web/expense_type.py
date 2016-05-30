@@ -9,21 +9,26 @@ import time
 
 class ExpenseType(object):
 
+    setting_path = '/html/body/div[1]/article/section/ul/li[3]/a'
+    finance_path = '//*[@id="menus"]/li[8]/a'
+    expense_path = '//*[@id="menus"]/li[8]/ul/li[3]/a'
+    search_path = '/html/body/div[1]/div[2]/div/article/header/div/div/input'
+
     def get_route(self):
-        WebDriverHelp().click_item('xpath', '/html/body/div[1]/article/section/ul/li[3]/a')
+        WebDriverHelp().click_item('xpath', self.setting_path)
         time.sleep(0.5)
-        WebDriverHelp().click_item('xpath', '//*[@id="menus"]/li[8]/a')
+        WebDriverHelp().click_item('xpath', self.finance_path)
         time.sleep(0.5)
-        WebDriverHelp().click_item('xpath', '//*[@id="menus"]/li[8]/ul/li[3]/a')
+        WebDriverHelp().click_item('xpath', self.expense_path)
         time.sleep(0.5)
 
-    def search(self, how, what, value):
-        WebDriverHelp().input_clear(how, what)
-        WebDriverHelp().input_value(how, what, value)
-        WebDriverHelp().input_value(how, what, Keys.ENTER)
+    def search(self, value):
+        WebDriverHelp().input_clear('xpath', self.search_path)
+        WebDriverHelp().input_value('xpath', self.search_path, value)
+        WebDriverHelp().input_value('xpath', self.search_path, Keys.ENTER)
 
     def check_data(self, value):  # 检查数据
-        self.search('xpath', '/html/body/div[1]/div[2]/div/article/header/div/div/input', value)
+        self.search('xpath', self.search_path, value)
         time.sleep(0.5)
         try:
             result = WebDriverHelp().check('xpath', '//*[@id="data-table"]/tbody/tr/td[2]', value)
@@ -45,7 +50,7 @@ class ExpenseType(object):
 
     def add_data(self):  # 添加
         WebDriverHelp().click_item('xpath', '/html/body/div[1]/div[2]/div/article/header/div/a')
-        time.sleep(0.5)
+
         WebDriverHelp().input_value('xpath', '/html/body/div[1]/div/div/div[2]/form/div/ul/li/div[2]/input', 'autotest')
         WebDriverHelp().click_item('xpath', '/html/body/div[1]/div/div/div[3]/button[1]')
         time.sleep(1)

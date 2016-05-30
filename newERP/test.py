@@ -16,9 +16,7 @@ class DDTSimpleTest(unittest.TestCase):
     # specify test data using @data decorator
     @data(("Selenium", 1), ("Python", 2))
     @unpack
-
     def test_search(self, search_text, TestCase_ID):
-
         print " Search Text " + search_text
         print " Search TestCase ID " + str(TestCase_ID)
 

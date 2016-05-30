@@ -5,9 +5,10 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.action_chains import Keys
+import selenium.webdriver.support.expected_conditions as ec
+import selenium.webdriver.support.ui as ui
 
-global G_WEBDRIVER,G_BROWSERTYPE,DRIVER
+global G_WEBDRIVER, G_BROWSERTYPE, DRIVER
 
 
 class WebDriverHelp(object):
@@ -131,6 +132,9 @@ class WebDriverHelp(object):
         except AttributeError:
             raise AttributeError()
 
+    def get_page_title(self):
+        return self.DRIVER.title
+
     def input_clear(self, how, what):
         """
         清空input输入框
@@ -154,18 +158,14 @@ class WebDriverHelp(object):
     def refresh_page(self):  # 刷新页面
         self.DRIVER.refresh()
 
-    def is_element_present(self, how, what):
-        """
-        判断元素是否存在
-        :param how:定位方法
-        :param what:要定位元素的属性值
-        :return:
-        """
-        try:
-            self.find_element(how, what)
-        except NoSuchElementException:
-            return False
-        return True
+    def is_element_displayed(self, how, what):
+        return self.find_element(how, what).is_displayed()
+
+    def is_element_enabled(self, how, what):
+        return self.find_element(how, what).is_enabled()
+
+    def is_element_selected(self, how, what):
+        return self.find_element(how, what).is_selected()
 
     def screen_shot(self, file_type, value):
         """
@@ -203,6 +203,9 @@ class WebDriverHelp(object):
         """
         # self.DRIVER.execute_script(js)
         self.find_element(how, what).send_keys(value)
+
+    def wait_for_element(self):
+        ui.WebDriverWait(self.DRIVER, 10).until(ec.presence_of_element_located((By.CLASS_NAME, self.errorMsg)))
 
 
 
