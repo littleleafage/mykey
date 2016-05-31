@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12478f62-0759-48dd-a75c-d6892e0bfdee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pageobject/web/finance/finance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/finance/expense_type.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pageobject/web/expense_type.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testcase/expense_type.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/pageobject/login/login.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/menu_locator.py" afterPath="$PROJECT_DIR$/common/menu_locator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wktest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../wktest/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wktest/common/base_page.py" afterPath="$PROJECT_DIR$/../wktest/common/base_page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wktest/common/login/login_page.py" afterPath="$PROJECT_DIR$/../wktest/common/login/login_page.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testcase/login.py" afterPath="$PROJECT_DIR$/testcase/login/login.py" />
     </list>
     <ignored path="newERP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/common/webdriver_help.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <caret line="55" column="28" selection-start-line="17" selection-start-column="4" selection-end-line="55" selection-end-column="28" />
               <folding>
                 <element signature="e#40#70#0" expanded="true" />
                 <element signature="e#364#414#1" expanded="false" />
@@ -48,11 +45,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="system.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pageobject/web/system.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/login/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expense_type.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/finance/expense_type.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.516696">
+              <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#31#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pageobject/login/login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="25" />
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="e#35#65#0" expanded="true" />
               </folding>
@@ -60,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testcase/login/login.py">
+      <file leaf-file-name="finance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pageobject/web/finance/finance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78552973">
-              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,10 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/testcase/search.py" />
-        <option value="$PROJECT_DIR$/src/testcase/__init__.py" />
-        <option value="$PROJECT_DIR$/src/common_functions/data_operations.py" />
-        <option value="$PROJECT_DIR$/src/testdata/testdata.xml" />
         <option value="$PROJECT_DIR$/src/testdata/elmethod.xml" />
         <option value="$PROJECT_DIR$/src/testdata/logindata.xml" />
         <option value="$PROJECT_DIR$/src/common/orderlist.py" />
@@ -130,18 +157,22 @@
         <option value="$PROJECT_DIR$/pageobject/web/finance/finance.py" />
         <option value="$PROJECT_DIR$/pageobject/web/order/order.py" />
         <option value="$PROJECT_DIR$/testcase/order/order_setting.py" />
-        <option value="$PROJECT_DIR$/common/locator.py" />
         <option value="$PROJECT_DIR$/testcase/system.py" />
         <option value="$PROJECT_DIR$/pageobject/web/system.py" />
         <option value="$PROJECT_DIR$/pageobject/login/login.py" />
         <option value="$PROJECT_DIR$/common/webdriver_help.py" />
         <option value="$PROJECT_DIR$/testcase/login/login.py" />
+        <option value="$PROJECT_DIR$/common/locator.py" />
+        <option value="$PROJECT_DIR$/common/menu_locator.py" />
+        <option value="$PROJECT_DIR$/common/basepage.py" />
+        <option value="$PROJECT_DIR$/testcase/login/login1.py" />
+        <option value="$PROJECT_DIR$/pageobject/login/login1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="417" />
-    <option name="y" value="55" />
+    <option name="x" value="-28" />
+    <option name="y" value="46" />
     <option name="width" value="1597" />
     <option name="height" value="869" />
   </component>
@@ -236,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="finance" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,7 +299,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageobject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newERP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +345,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -295,29 +362,7 @@
       <recent name="G:\webdriver\newERP\module\setting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in login (1)">
-    <configuration default="false" name="Unittests in login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="newERP" />
-      <option name="SCRIPT_NAME" value="G:\webdriver\newERP\testcase\login\login.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in login1">
     <configuration default="false" name="testall" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,6 +435,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="newERP" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/login/login.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in login1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/login" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="newERP" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/login/login1.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -524,18 +591,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in login" />
-      <item index="1" class="java.lang.String" itemvalue="Python.testall" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in expense_type (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in system" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in login (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.testall" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in expense_type (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in system" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in login (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in login1" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in login (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in system" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testall" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in expense_type (1)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in login1" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in login (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in system" />
+        <item index="3" class="java.lang.String" itemvalue="Python.testall" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in expense_type (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -553,6 +621,21 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittests_in_login1 - 2016.05.31 at 18h 45m 38s.xml">
+      <configuration name="Unittests in login1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login1 - 2016.05.31 at 18h 48m 29s.xml">
+      <configuration name="Unittests in login1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login1 - 2016.05.31 at 18h 49m 30s.xml">
+      <configuration name="Unittests in login1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login1 - 2016.05.31 at 18h 50m 16s.xml">
+      <configuration name="Unittests in login1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_login1 - 2016.05.31 at 18h 50m 58s.xml">
+      <configuration name="Unittests in login1" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_login_(1) - 2016.05.31 at 18h 14m 56s.xml">
       <configuration name="Unittests in login (1)" configurationId="tests" />
     </history-entry>
@@ -562,23 +645,8 @@
     <history-entry file="Unittests_in_login_(1) - 2016.05.31 at 18h 20m 31s.xml">
       <configuration name="Unittests in login (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_system - 2016.05.31 at 17h 57m 52s.xml">
-      <configuration name="Unittests in system" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_system - 2016.05.31 at 17h 58m 15s.xml">
-      <configuration name="Unittests in system" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_system - 2016.05.31 at 17h 59m 24s.xml">
-      <configuration name="Unittests in system" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_system - 2016.05.31 at 18h 00m 30s.xml">
-      <configuration name="Unittests in system" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_system - 2016.05.31 at 18h 01m 11s.xml">
-      <configuration name="Unittests in system" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_system - 2016.05.31 at 18h 02m 06s.xml">
-      <configuration name="Unittests in system" configurationId="tests" />
+    <history-entry file="Unittests_in_login_(1) - 2016.05.31 at 18h 31m 12s.xml">
+      <configuration name="Unittests in login (1)" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_system - 2016.05.31 at 18h 14m 19s.xml">
       <configuration name="Unittests in system" configurationId="tests" />
@@ -594,20 +662,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="417" y="55" width="1597" height="869" extended-state="1" />
+    <frame x="-28" y="46" width="1597" height="869" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14175753" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14175753" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38975817" sideWeight="0.50630784" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22252375" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.044414535" sideWeight="0.57779646" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.57779646" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24978974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4347826" sideWeight="0.4936922" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2798913" sideWeight="0.4936922" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -655,81 +723,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pageobject/login/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#70#0" expanded="true" />
-            <element signature="e#364#414#1" expanded="false" />
-            <element signature="e#2439#2624#0" expanded="false" />
-            <element signature="e#2921#3168#0" expanded="false" />
-            <element signature="e#3215#3351#0" expanded="false" />
-            <element signature="e#3952#4002#0" expanded="false" />
-            <element signature="e#4047#4293#0" expanded="false" />
-            <element signature="e#4333#4357#0" expanded="false" />
-            <element signature="e#4405#4542#0" expanded="false" />
-            <element signature="e#4597#4808#0" expanded="false" />
-            <element signature="e#4854#4875#0" expanded="false" />
-            <element signature="e#4932#4982#0" expanded="false" />
-            <element signature="e#5037#5085#0" expanded="false" />
-            <element signature="e#5141#5190#0" expanded="false" />
-            <element signature="e#5245#5560#0" expanded="false" />
-            <element signature="e#5616#5862#0" expanded="false" />
-            <element signature="e#5985#6204#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/webdriver_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
-          <folding>
-            <element signature="e#40#70#0" expanded="true" />
-            <element signature="e#364#414#1" expanded="false" />
-            <element signature="e#2439#2624#0" expanded="false" />
-            <element signature="e#2921#3168#0" expanded="false" />
-            <element signature="e#3215#3351#0" expanded="false" />
-            <element signature="e#3952#4002#0" expanded="false" />
-            <element signature="e#4047#4293#0" expanded="false" />
-            <element signature="e#4333#4357#0" expanded="false" />
-            <element signature="e#4405#4542#0" expanded="false" />
-            <element signature="e#4597#4808#0" expanded="false" />
-            <element signature="e#4854#4875#0" expanded="false" />
-            <element signature="e#4932#4982#0" expanded="false" />
-            <element signature="e#5037#5085#0" expanded="false" />
-            <element signature="e#5141#5190#0" expanded="false" />
-            <element signature="e#5245#5560#0" expanded="false" />
-            <element signature="e#5616#5862#0" expanded="false" />
-            <element signature="e#5985#6204#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/finance/expense_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pageobject/web/finance/finance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1083,32 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/order/order_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pageobject/web/finance/finance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/menu_locator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6129944">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pageobject/web/order/order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28248587">
@@ -1127,30 +1099,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pageobject/web/system.py">
+    <entry file="file://$PROJECT_DIR$/common/menu_locator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5467197">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.27768013">
+          <caret line="72" column="16" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/order/order_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
-            <element signature="e#24#71#0" expanded="true" />
+            <element signature="e#24#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/finance/expense_type.py">
+    <entry file="file://$PROJECT_DIR$/testcase/login/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7797357">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#31#42#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pageobject/login/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="25" />
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="e#35#65#0" expanded="true" />
           </folding>
@@ -1160,7 +1138,7 @@
     <entry file="file://$PROJECT_DIR$/common/webdriver_help.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <caret line="55" column="28" selection-start-line="17" selection-start-column="4" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="e#40#70#0" expanded="true" />
             <element signature="e#364#414#1" expanded="false" />
@@ -1172,11 +1150,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/login/login.py">
+    <entry file="file://$PROJECT_DIR$/pageobject/web/system.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78552973">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobject/web/finance/finance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/finance/expense_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.516696">
+          <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

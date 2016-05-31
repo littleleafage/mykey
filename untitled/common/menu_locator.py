@@ -2,7 +2,7 @@
 from selenium.webdriver.common.by import By
 
 
-# 控制台菜单
+# 菜单
 class Menu(object):
     CRM = (By.XPATH, "/html/body/div[1]/article/section/ul/li[1]/a")
     ERP = (By.XPATH, "/html/body/div[1]/article/section/ul/li[2]/a")
@@ -83,10 +83,28 @@ class ImportMenu(object):
     DATA_IMPORT = (By.XPATH, "//*[@id='menus']/li[10]/a")  # 数据导入
 
 
+# 数据
 class LoginData(object):
     STORE_ID = (By.NAME, "store_id")
     USERNAME = (By.NAME, "username")
     PASSWORD = (By.NAME, "password")
+    LOGIN_BTN = (By.CLASS_NAME, "login-btn")
+    LOGIN_USER = (By.ID, "top-user-logout")
+    LOG_PAGE_TITLE = u'车车云智慧系统-商户登录'
+
+
+class FinanceData(object):
+    SEARCH = (By.XPATH, "/html/body/div[1]/div[2]/div/article/header/div/div/input")  # 查询输入框
+    CHECK_LINE = (By.XPATH, "//*[@id='data-table']/tbody/tr/td[2]")  # 用于比对查询结果
+    DELETE_BTN = (By.XPATH, "//*[@id='data-table']/tbody/tr/td[1]/span[2]/a")  # 删除按钮
+    ADD_BTN = (By.XPATH, "/html/body/div[1]/div[2]/div/article/header/div/a")  # 添加按钮
+    UPDATE_BTN = (By.XPATH, "//*[@id='data-table']/tbody/tr/td[1]/span[1]/a")  # 更新按钮
+    SAVE_BTN = (By.XPATH, "/html/body/div[1]/div/div/div[3]/button[1]")  # 保存按钮
+    INPUT_VALUE = (By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div/ul/li/div[2]/input")  # 类型/方式输入框
+    # 结算账户页面的名称和门店搜索框
+    ACCOUNT_NAME_SEARCH = (By.XPATH, "/html/body/div[1]/div[2]/div/article/section/form/div/div[1]/ul/li[1]/div/input")
+    ACCOUNT_STORE_SEARCH = (By.XPATH,
+                            "/html/body/div[1]/div[2]/div/article/section/form/div/div[1]/ul/li[2]/div[2]/select")
 
 
 
