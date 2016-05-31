@@ -11,7 +11,7 @@ class TestLogin(unittest.TestCase):
     def setUp(self):
         WebDriverHelp("open", "chrome", "local").setup()
 
-    @data(('***', '******', '*****'))  # 登录帐号
+    @data(('10008', 'yewen', 'ccwk0715'))  # 登录帐号
     @unpack
     def test_login(self, store_id, username, password):
         # self.assertTrue(Login().verify_page())
