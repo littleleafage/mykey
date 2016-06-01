@@ -8,26 +8,26 @@ import selenium.webdriver.support.expected_conditions as ec
 import selenium.webdriver.support.ui as ui
 from selenium.webdriver.common.by import By
 from common.menu_locator import Menu
-from common.menu_locator import FinanceMenu
 from common.menu_locator import FinanceData
+from common.menu_locator import ProductData
 import time
 
 
-class FinancePage(BasePage):
+class ProductPage(BasePage):
 
-    def get_route(self, *loc):
-        # self.geturl('http://www.checheweike.com/web/index.php?route=common/index#/expense_type/list')
+    def get_route(self):
         self.click_item(*Menu.SETTING)
-        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located((By.XPATH, FinanceMenu.FINANCE[1])))
-        self.click_item(*FinanceMenu.FINANCE)
-        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(loc))
-        self.click_item(*loc)
+        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(ProductData.PRO_SER))
+        self.click_item(*ProductData.PRO_SER)
+        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(ProductData.PRODUCT))
+        self.click_item(*ProductData.PRODUCT)
         time.sleep(0.5)
 
     def search(self, value):
-        self.input_clear(*FinanceData.SEARCH)
-        self.input_value(value, *FinanceData.SEARCH)
-        self.DRIVER.find_element(*FinanceData.SEARCH).send_keys(Keys.ENTER)
+        self.input_value(value, *ProductData.SEARCH_KEY)
+        # self.input_value(*ProductData.SEARCH_CAR_MODELS)
+        # self.DRIVER.find_element(*ProductData.SEARCH_CAR_MODELS).send_keys(Keys.ENTER)
+        self.click_item(*ProductData.SEARCH_BTN)
         time.sleep(0.5)
 
     def init_data(self, value):
@@ -39,21 +39,23 @@ class FinancePage(BasePage):
     def check_data(self, value):  # 检查数据
         self.search(value)
         try:
-            ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.CHECK_LINE))
+            ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(ProductData.CHECK_LINE))
             return True
         except TimeoutException:
             return False
 
     def delete_data(self):
-        self.click_item(*FinanceData.DELETE_BTN)
+        self.click_item(*ProductData.DELETE_ICON)
         self.switch()
         time.sleep(0.5)
 
-    def add_data(self):  # 添加
+    def add_data(self, value):  # 添加
         self.click_item(*FinanceData.ADD_BTN)
-        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.INPUT_VALUE))
-        self.input_value('autotest', *FinanceData.INPUT_VALUE)
-        self.click_item(*FinanceData.SAVE_BTN)
+        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(ProductData.PRODUCT_NAME))
+        self.input_value(value, *ProductData.PRODUCT_NAME)
+        self.input_value('20000', *FinanceData.INIT_DATA)
+        self.input_value(u'', *FinanceData.COMMENT)
+        self.click_item(*FinanceData.SAVE_BTN2)
         time.sleep(0.5)
 
     def update_data(self, value, value2):
@@ -61,7 +63,6 @@ class FinancePage(BasePage):
         ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.UPDATE_BTN))
         self.click_item(*FinanceData.UPDATE_BTN)
         ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.INPUT_VALUE))
-        self.input_clear(*FinanceData.INPUT_VALUE)
         self.input_value(value2, *FinanceData.INPUT_VALUE)
         self.click_item(*FinanceData.SAVE_BTN)
         time.sleep(0.5)

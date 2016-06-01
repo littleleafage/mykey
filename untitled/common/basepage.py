@@ -143,6 +143,7 @@ class BasePage(object):
         :param value: 要给文本框输入的值
         :return:
         """
+        self.input_clear(*loc)
         self.find_element(*loc).send_keys(value)
 
     def refresh_page(self):  # 刷新页面

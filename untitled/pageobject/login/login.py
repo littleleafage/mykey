@@ -15,7 +15,7 @@ class Login(BasePage):
         time.sleep(0.5)
 
     def logout(self):
-        self.geturl(LoginData.LOGOUT_URL)
+        self.geturl("http://www.checheweike.com/web/index.php?route=common/logout")
         time.sleep(0.5)
         self.teardown()
 
