@@ -3,7 +3,8 @@ from selenium.webdriver.common.by import By
 
 
 class Commond(object):
-    SAVE_BTN = (By.CLASS_NAME, ".btn.btn-primary")
+    SAVE_BTN = (By.CLASS_NAME, ".btn.btn-primary")  # 保存按钮
+    CHECKBOX_ALL = (By.XPATH, ".//*[@id='data-table']/thead/tr/th[1]/input")  # 全选框
 
 
 # 菜单
@@ -27,6 +28,17 @@ class OrderMenu(object):
     ORDER_SET = (By.XPATH, "//*[@id='menus']/li[2]/ul/li[2]/a")  # 工单设置
     QR_CODE = (By.XPATH, "//*[@id='menus']/li[2]/ul/li[3]/a")  # 收银二维码
     INVOICE = (By.XPATH, "//*[@id='menus']/li[2]/ul/li[4]/a")  # 单据打印
+    # 收银设置
+    BALANCE_REQUIRED_OPEN = (By.XPATH,
+                             "/html/body/div[1]/div[2]/div/article/section/form/div/ul/li[1]/div/label[1]/input")  # 余额使用授权，开启
+    COMBO_CAR_MATCH_LIMIT_OPEN = (By.XPATH,
+                                  "/html/body/div[1]/div[2]/div/article/section/form/div/ul/li[2]/div/label[1]/input")  # 车辆匹配才可使用套餐，开启
+    NONVIP_IS_ON_ACCOUNT_OPEN = (By.XPATH,
+                                 "/html/body/div[1]/div[2]/div/article/section/form/div/ul/li[2]/div/label[1]/input")
+    USE_EXPIRED_BALANCE_OPEN = (By.XPATH,
+                           "/html/body/div[1]/div[2]/div/article/section/form/div/ul/li[2]/div/label[1]/input")
+    USE_EXPIRED_COMBO_OPEN = (By.XPATH,
+                         "/html/body/div[1]/div[2]/div/article/section/form/div/ul/li[5]/div/label[1]/input")
 
 
 class UserMenu(object):
@@ -61,26 +73,16 @@ class CustomerMenu(object):
     CUSTOMER_SOURCE = (By.XPATH, "//*[@id='menus']/li[7]/ul/li[3]/a")  # 客户来源
 
 
-class FinanceMenu(object):
-    FINANCE = (By.XPATH, "//*[@id='menus']/li[8]/a")  # 财务
-    SETTLEMENT_ACCOUNT = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[1]/a")  # 结算账户
-    SETTLEMENT_TYPE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[2]/a")  # 结算方式
-    EXPENSE_TYPE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[3]/a")  # 支出类型
-    INCOME_TYPE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[4]/a")  # 收入类型
-    INIT_RECEIVABLE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[5]/a")  # 应收期初
-    INIT_PAYABLE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[6]/a")  # 应付期初
-
-
-class StoreMenu(object):
+class StorePath(object):
     STORE = (By.XPATH, "//*[@id='menus']/li[9]/a")  # 分店设置
 
 
-class ImportMenu(object):
+class ImportPath(object):
     DATA_IMPORT = (By.XPATH, "//*[@id='menus']/li[10]/a")  # 数据导入
 
 
 # 数据
-class LoginData(object):
+class LoginPath(object):
     STORE_ID = (By.NAME, "store_id")
     USERNAME = (By.NAME, "username")
     PASSWORD = (By.NAME, "password")
@@ -89,7 +91,14 @@ class LoginData(object):
     LOG_PAGE_TITLE = u'车车云智慧系统-商户登录'
 
 
-class FinanceData(object):
+class FinancePath(object):
+    FINANCE_MENU = (By.XPATH, "//*[@id='menus']/li[8]/a")  # 财务
+    SETTLEMENT_ACCOUNT = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[1]/a")  # 结算账户
+    SETTLEMENT_TYPE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[2]/a")  # 结算方式
+    EXPENSE_TYPE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[3]/a")  # 支出类型
+    INCOME_TYPE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[4]/a")  # 收入类型
+    INIT_RECEIVABLE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[5]/a")  # 应收期初
+    INIT_PAYABLE = (By.XPATH, "//*[@id='menus']/li[8]/ul/li[6]/a")  # 应付期初
     SEARCH = (By.XPATH, "/html/body/div[1]/div[2]/div/article/header/div/div/input")  # 查询输入框
     CHECK_LINE = (By.XPATH, "//*[@id='data-table']/tbody/tr/td[2]")  # 用于比对查询结果
     DELETE_BTN = (By.XPATH, "//*[@id='data-table']/tbody/tr/td[1]/span[2]/a")  # 删除按钮
@@ -113,7 +122,7 @@ class FinanceData(object):
     SAVE_BTN2 = (By.XPATH, "/html/body/div[1]/div/div/div[3]/button[2]")  # 结算账户的保存按钮
 
 
-class ProductData(object):
+class ProductPath(object):
     # 菜单
     PRO_SER = (By.XPATH, "//*[@id='menus']/li[3]/a")  # 配件与服务
     PRODUCT = (By.XPATH, "//*[@id='menus']/li[3]/ul/li[1]/a")  # 配件
@@ -136,16 +145,15 @@ class ProductData(object):
     SAVE_BTN = (By.CLASS_NAME, ".btn.btn-primary")  # 保存按钮
     SEARCH_BTN = (By.XPATH, "/html/body/div[1]/div[2]/div/article/section/form/div/div[2]/button")  # 查询按钮
     CHECK_LINE = (By.XPATH, "//*[@id='data-table']/tbody/tr[1]")
-    # 配件添加、修改信息
+    # 配件添加、修改信息定位
     PRODUCT_NAME = (By.NAME, "name")  # 配件名称
     PRODUCT_TYPE = (By.ID, "choose-parts-category")  # 配件分类
     PRODUCT_NO = (By.NAME, "product_no")  # 配件编号
     UNIT = (By.XPATH, "html/body/div[1]/div/div/div[2]/form/div/div/div/div[1]/ul[2]/li[2]/div/select")  # 单位
     PRODUCT_MODEL = (By.NAME, "model")  # 配件型号
     PRODUCT_BARCODE = (By.NAME, "barcode")  # 配件条形码
-    # 配件库存下限
     PRODUCT_QUANTITY_LIMIT = (By.XPATH,
-                              "/html/body/div[1]/div/div/div[2]/form/div/div/div/div[1]/ul[3]/li[2]/div/input")
+                              "/html/body/div[1]/div/div/div[2]/form/div/div/div/div[1]/ul[3]/li[2]/div/input")  # 配件库存下限
     PURCHASE_PRICE = (By.XPATH,
                       "/html/body/div[1]/div/div/div[2]/form/div/div/div/div[1]/ul[4]/li[1]/div/input")  # 预计采购价
     PRODUCT_PRICE = (By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div/div/div/div[1]/ul[4]/li[2]/div/input")  # 参考售价
@@ -158,6 +166,13 @@ class ProductData(object):
     ATTR2 = (By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div/div/div/div[2]/ul[2]/li[2]/div/input")  # 自定义属性2
     ATTR3 = (By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div/div/div/div[2]/ul[2]/li[3]/div/input")  # 自定义属性3
     COMMENT = (By.XPATH, "/html/body/div[1]/div/div/div[2]/form/div/div/div/div[2]/ul[4]/li/div/textarea")  # 备注
+    CHECK_BOX_ALL = (By.XPATH, "//*[@id='data-table']/tbody/tr[1]/th[1]/input")  # 多选框
+
+
+class ServicePath(object):
+    SEARCH_KEY = (By.XPATH, "/html/body/div[1]/div[2]/div/article/section/form/div/div[1]/ul/li[1]/div/input")  # 服务关键字搜索
+    SEARCH_TYPE = (By.XPATH, "/html/body/div[1]/div[2]/div/article/section/form/div/div[1]/ul/li[2]/div/select")  # 分类搜索
+    SEARCH_STATUS = (By.XPATH, "/html/body/div[1]/div[2]/div/article/section/form/div/div[1]/ul/li[3]/div/select")  # 状态搜索
 
 
 

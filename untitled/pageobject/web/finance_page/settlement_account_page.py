@@ -9,7 +9,7 @@ import selenium.webdriver.support.ui as ui
 from selenium.webdriver.common.by import By
 from common.menu_locator import Menu
 from common.menu_locator import FinanceMenu
-from common.menu_locator import FinanceData
+from common.menu_locator import FinancePath
 from pageobject.web.finance_page.finance_page import FinancePage
 import time
 
@@ -25,8 +25,8 @@ class SettlementAccountPage(FinancePage):
         time.sleep(0.5)
 
     def search(self, value):
-        self.input_value(value, *FinanceData.ACCOUNT_NAME_SEARCH)
-        self.DRIVER.find_element(*FinanceData.ACCOUNT_NAME_SEARCH).send_keys(Keys.ENTER)
+        self.input_value(value, *FinancePath.ACCOUNT_NAME_SEARCH)
+        self.DRIVER.find_element(*FinancePath.ACCOUNT_NAME_SEARCH).send_keys(Keys.ENTER)
         time.sleep(0.5)
 
     def init_data(self, value):
@@ -38,32 +38,32 @@ class SettlementAccountPage(FinancePage):
     def check_data(self, value):  # 检查数据
         self.search(value)
         try:
-            ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.CHECK_LINE))
+            ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinancePath.CHECK_LINE))
             return True
         except TimeoutException:
             return False
 
     def delete_data(self):
-        self.click_item(*FinanceData.DELETE_BTN)
+        self.click_item(*FinancePath.DELETE_BTN)
         self.switch()
         time.sleep(0.5)
 
     def add_data(self):  # 添加
-        self.click_item(*FinanceData.ADD_BTN)
-        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.ACCOUNT_NAME))
-        self.input_value('autotest', *FinanceData.ACCOUNT_NAME)
-        self.input_value('20000', *FinanceData.INIT_DATA)
-        self.input_value(u'', *FinanceData.COMMENT)
-        self.click_item(*FinanceData.SAVE_BTN2)
+        self.click_item(*FinancePath.ADD_BTN)
+        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinancePath.ACCOUNT_NAME))
+        self.input_value('autotest', *FinancePath.ACCOUNT_NAME)
+        self.input_value('20000', *FinancePath.INIT_DATA)
+        self.input_value(u'', *FinancePath.COMMENT)
+        self.click_item(*FinancePath.SAVE_BTN2)
         time.sleep(0.5)
 
     def update_data(self, value):
         self.search(value)
-        self.click_item(*FinanceData.UPDATE_BTN)
-        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.ACCOUNT_NAME))
-        self.click_item(*FinanceData.BANK_TYPE)
-        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinanceData.BANK_NAME))
-        self.input_value(u'中行', *FinanceData.BANK_NAME)
-        self.input_value(u'24545345', *FinanceData.BANK_CARD)
-        self.click_item(*FinanceData.SAVE_BTN2)
+        self.click_item(*FinancePath.UPDATE_BTN)
+        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinancePath.ACCOUNT_NAME))
+        self.click_item(*FinancePath.BANK_TYPE)
+        ui.WebDriverWait(self.DRIVER, 3).until(ec.visibility_of_element_located(FinancePath.BANK_NAME))
+        self.input_value(u'中行', *FinancePath.BANK_NAME)
+        self.input_value(u'24545345', *FinancePath.BANK_CARD)
+        self.click_item(*FinancePath.SAVE_BTN2)
         time.sleep(0.5)

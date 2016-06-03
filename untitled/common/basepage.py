@@ -5,8 +5,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import  Select
 from selenium.common.exceptions import NoSuchElementException
-import selenium.webdriver.support.expected_conditions as ec
-import selenium.webdriver.support.ui as ui
 
 global G_WEBDRIVER, G_BROWSERTYPE, DRIVER
 
@@ -28,30 +26,34 @@ class BasePage(object):
             if atype == "chrome":
                 if ctype == "local":
                     DRIVER = webdriver.Chrome()
-                    #DRIVER.maximize_window()
-                elif ctype == "notlocal":
-                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.CHROME)
+                    DRIVER.maximize_window()
+                elif ctype == "remote":
+                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub",
+                                              desired_capabilities=webdriver.DesiredCapabilities.CHROME)
                     DRIVER.maximize_window()
             elif atype == "ie":
                 if ctype == "local":
                     DRIVER = webdriver.Ie()
                     DRIVER.maximize_window()
-                elif ctype == "notlocal":
-                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.INTERNETEXPLORER)
+                elif ctype == "remote":
+                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub",
+                                              desired_capabilities=webdriver.DesiredCapabilities.INTERNETEXPLORER)
                     DRIVER.maximize_window()
             elif atype == "firefox":
                 if ctype == "local":
                     DRIVER = webdriver.Firefox()
                     DRIVER.maximize_window()
-                elif ctype == "notlocal":
-                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
+                elif ctype == "remote":
+                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub",
+                                              desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
                     DRIVER.maximize_window()
             elif atype == 'htmlunit':
                 if ctype == "local":
                     DRIVER = webdriver.HtmlUnitDriver()
                     DRIVER.maximize_window()
-                elif ctype == "notlocal":
-                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub", desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
+                elif ctype == "remote":
+                    DRIVER = webdriver.Remote(command_executor="http://127.0.0.1:4444/wd/hub",
+                                              desired_capabilities=webdriver.DesiredCapabilities.FIREFOX)
                     DRIVER.maximize_window()
         self.DRIVER = DRIVER
 
